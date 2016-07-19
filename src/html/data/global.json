@@ -1,3 +1,24 @@
 {
-  "title": "New Project"
+  "site": {
+    "title": "Academia",
+    "navigation": [
+      {
+        "title": "Articles",
+        "url": "#",
+        "active": "true"
+      },
+      {
+        "title": "Movies",
+        "url": "#"
+      },
+      {
+        "title": "Photos",
+        "url": "#"
+      },
+      {
+        "title": "Podcast",
+        "url": "#"
+      }
+    ]
+  }
 }
