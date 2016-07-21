@@ -28,13 +28,13 @@ $color-success: #2fa714;
 // Dimensions
 //============================================
 
-$space:              2.5rem; // 25px
-$space-quarter:      $space * 0.25;
-$space-third:        round($space / 3);
-$space-half:         $space * 0.5;
-$space-threeQuarter: round($space * 0.75);
-$space-oneAndHalf:   $space * 1.5;
-$space-double:       $space * 2;
+$space:              2.4rem;               // 24px
+$space-quarter:      $space * 0.25;        // 6px
+$space-third:        round($space / 3);    // 8px
+$space-half:         $space * 0.5;         // 12px
+$space-threeQuarter: round($space * 0.75); // 18px
+$space-oneAndHalf:   $space * 1.5;         // 36px
+$space-double:       $space * 2;           // 48px
 
 $header-height: 5.7rem;
 
@@ -43,7 +43,7 @@ $header-height: 5.7rem;
 //============================================
 
 $font:           "Tiempos Text", Georgia, serif;
-$font-headline:  "Tiempos Headline", Georgia, serif;
+$font-headline:  "Tiempos Headline Semibold", Georgia, serif;
 $font-sans:      "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-mono:      monospace, monospace;
 
@@ -62,20 +62,20 @@ $fs-h6: 1.6rem;
 //============================================
 
 // XS
-$layout-gutter-xs: 1.6rem;
-$layout-width-xs:  41.6rem;
+$layout-gutter-xs: 1.8rem;
+$layout-width-xs:  40rem;
 
 // SM
 $layout-gutter-sm: 2rem;
-$layout-width-sm:  72.8rem;
+$layout-width-sm:  60rem;
 
 // MD
-$layout-gutter-md: 2.2rem;
-$layout-width-md:  96.6rem;
+$layout-gutter-md: 2.5rem;
+$layout-width-md:  80rem;
 
 // LG
 $layout-gutter-lg: 3rem;
-$layout-width-lg:  129rem;
+$layout-width-lg:  100rem;
 
 
 // Breakpoints
@@ -225,4 +225,48 @@ $dimension-utility-config-lg: (
   "bp": $bp-lg,
 
   "sizes": $dimension-utility-sizes
+);
+
+
+// Responsive gutter helper class
+//============================================
+
+$dimension-utility-gutter-config-xs: (
+ "name": "",
+ "pull": true,
+ "push": true,
+ "padd": true,
+ "bp": false,
+
+ "sizes": ("gutter": $layout-gutter-xs)
+);
+
+$dimension-utility-gutter-config-sm: (
+ "name": "",
+ "pull": true,
+ "push": true,
+ "padd": true,
+ "bp": $bp-sm,
+
+ "sizes": ("gutter": $layout-gutter-sm)
+);
+
+$dimension-utility-gutter-config-md: (
+ "name": "",
+ "pull": true,
+ "push": true,
+ "padd": true,
+ "bp": $bp-md,
+
+ "sizes": ("gutter": $layout-gutter-md)
+);
+
+$dimension-utility-gutter-config-lg: (
+ "name": "",
+ "pull": true,
+ "push": true,
+ "padd": true,
+ "bp": $bp-lg,
+
+ "sizes": ("gutter": $layout-gutter-lg)
 );
