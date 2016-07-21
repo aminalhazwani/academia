@@ -1,0 +1,23 @@
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+  <div class="l-container">
+    <header class="article_header">
+      <h1 class="article_title">{{ article.title }}</h1>
+      <p class="article_meta">
+        <span>{{ article.category }}</span>
+        <span class="u-push-horz-half">|</span>
+        <span>{{ article.date }}</span>
+      </p>
+    </header>
+    <main>
+      <div class="u-pull-horz-gutter u-pull-horz-gutter-none">
+        <img class="article_cover" src="{{ article.cover }}" alt="">
+      </div>
+      <p class="article_excerpt">{{ article.excerpt }}</p>
+      <div class="article_box">
+        <p class="u-push-btm-none">{{ article.box }}</p>
+      </div>
+    </main>
+  </div>
+{% endblock %}
