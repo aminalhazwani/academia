@@ -29,10 +29,12 @@
   font-weight: 600
   text-transform: uppercase
   border-bottom: 2px solid transparent
+  transition: border-bottom-color 0.3s ease
   +mq($bp-sm)
     font-size: inherit
     padding-bottom: $space-half
     margin-left: $space
 
+.nav_item:hover,
 .nav_item-active
   border-bottom-color: $white
