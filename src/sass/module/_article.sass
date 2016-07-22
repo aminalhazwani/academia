@@ -3,18 +3,30 @@
 //============================================
 
 
+.article
+  +mq($bp-sm)
+    padding: 0 5rem
+  +mq($bp-md)
+    padding: 0 10rem
+  +mq($bp-lg)
+    padding: 0 15rem
+
+
 // Header
 //============================================
 
 .article_header
   padding: $space 0
   text-align: center
-  // +mq($bp-sm)
-  //   padding: $space-double 0
+  +mq($bp-md)
+    padding: $space-double 0
 
 .article_title
   +h3
   margin-bottom: $space-half
+  +mq($bp-lg)
+    +h2
+    margin-bottom: $space-half
 
 .article_meta
   margin-bottom: 0
@@ -28,14 +40,24 @@
 
 .article_coverContainer
   position: relative
+  margin-bottom: $space
+  +mq($bp-sm)
+    margin-right: -5rem
+    margin-left: -5rem
+  +mq($bp-md)
+    margin-right: -10rem
+    margin-left: -10rem
+    margin-bottom: $space-double
+  +mq($bp-lg)
+    margin-right: -15rem
+    margin-left: -15rem
 
 .article_cover
-  margin-bottom: $space
   max-width: 100%
 
 .article_coverCaption
   +pos(0 0, bottom right)
-  padding: 0 $space-half $space-quarter
+  margin: 0 $space-threeQuarter $space-half
   font-family: $font-sans
   font-size: small
   color: $white
@@ -47,7 +69,7 @@
   color: $gray-mid
   +mq($bp-sm)
     +h5
-    margin-bottom: $space
+    margin-bottom: $space-double
 
 
 // Author
@@ -130,4 +152,7 @@
   text-decoration: underline
 
 .related_excerpt
+  margin-bottom: $space-oneAndHalf
+  padding-bottom: $space
   font-size: small
+  border-bottom: 1px solid $gray
