@@ -7,6 +7,15 @@
 //============================================
 
 .typography
+  p
+    font-variant-numeric: oldstyle-nums;
+    -moz-font-feature-settings: "onum"
+    -webkit-font-feature-settings: "onum"
+    font-feature-settings: "onum"
+
+  a
+    text-decoration: underline
+    
   ul, ol
     margin-bottom: $space
     margin-left: $space
@@ -19,3 +28,31 @@
 
   ol
     list-style: decimal
+
+  figure
+    margin-bottom: $space
+
+  figcaption
+    margin-top: $space-quarter
+    font-family: $font-sans
+    font-size: small
+    color: $gray-mid
+
+  img
+    max-width: 100%
+
+  blockquote
+    margin-bottom: $space
+    padding: $space-threeQuarter $space $space
+    font-family: $font-headline
+    font-style: italic
+    background-color: $black
+    color: $white
+    -webkit-font-smoothing: antialiased
+
+    &::before
+      content: "“"
+      display: block
+      margin-bottom: -$space-half
+      font-size: 6rem
+      line-height: 1
