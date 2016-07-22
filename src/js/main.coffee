@@ -1,7 +1,7 @@
 $ = require 'jquery'
+D = require 'dropcap.js'
 
-# Enable inline svgs in IE
-# svg4everybody = require 'svg4everybody'
-# svg4everybody()
-
-$ ->
+$(window).on 'load resize', (e) ->
+  dropcap = document.getElementById('dropcap')
+  window.Dropcap.layout dropcap, 3
+  return
