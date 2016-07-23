@@ -6,8 +6,7 @@
   "navigation": [
     {
       "title": "Articles",
-      "url": "/articles.html",
-      "active": "true"
+      "url": "/articles.html"
     },
     {
       "title": "Movies",
@@ -40,7 +39,7 @@
     "authorpicture": "images/antje.png",
     "authorcontact": "@antje",
     "authorcontacturl": "https://twitter.com/",
-    "related": [
+    "preview": [
       {
         "type": "Podcast",
         "title": "Electric Language",
@@ -57,7 +56,7 @@
       },
       {
         "type": "Reportage",
-        "title": "La biologa che classi ca i lombrichi e ama la letteratura",
+        "title": "La biologa che classifica i lombrichi e ama la letteratura",
         "url": "#",
         "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
       },
