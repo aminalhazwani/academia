@@ -1,0 +1,32 @@
+//============================================
+// Filters
+//============================================
+
+
+.filter
+  padding: $space 0 $space-half
+  font-family: $font-sans
+  font-weight: 600
+  color: $gray-mid
+  text-transform: uppercase
+
+.filter_form
+  margin-bottom: 0
+  +mq($bp-md)
+    display: flex
+    align-items: center
+
+.filter_select,
+.filter_search
+  display: block
+  padding: $space-half
+  width: 100%
+  border: 1px solid $gray
+  -webkit-appearance: none
+  -moz-appearance: none
+
+
+  &:active,
+  &:focus
+    border-color: $black
+    outline: none
