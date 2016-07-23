@@ -1,29 +1,31 @@
 {
   "site": {
-    "title": "Academia",
-    "navigation": [
-      {
-        "title": "Articles",
-        "url": "#",
-        "active": "true"
-      },
-      {
-        "title": "Movies",
-        "url": "#"
-      },
-      {
-        "title": "Photos",
-        "url": "#"
-      },
-      {
-        "title": "Podcasts",
-        "url": "#"
-      }
-    ],
-    "footer": {
-      "subscribe": "Get your free copy of <strong>Academia</strong>",
-      "subscribemail": "Please send your name and address to <a class=\"u-td-underline\" href=\"mailto:press@eurac.edu\">press@eurac.edu</a>"
+    "title": "Academia"
+  },
+
+  "navigation": [
+    {
+      "title": "Articles",
+      "url": "/articles.html",
+      "active": "true"
+    },
+    {
+      "title": "Movies",
+      "url": "#"
+    },
+    {
+      "title": "Photos",
+      "url": "#"
+    },
+    {
+      "title": "Podcasts",
+      "url": "#"
     }
+  ],
+
+  "footer": {
+    "subscribe": "Get your free copy of <strong>Academia</strong>",
+    "subscribemail": "Please send your name and address to <a class=\"u-td-underline\" href=\"mailto:press@eurac.edu\">press@eurac.edu</a>"
   },
 
   "article": {
