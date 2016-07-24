@@ -5,7 +5,7 @@
     {% include "shared/filters.html" %}
     <div class="l-container">
       <div class="articlePreview">
-        {% for item in article.preview %}
+        {% for item in articles %}
           <div class="articlePreview_inner articlePreview_inner-archive">
             {% if item.image == 'true' %}
               <a href="{{ item.url }}">
