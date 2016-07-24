@@ -23,8 +23,9 @@
   ],
 
   "footer": {
-    "subscribe": "Get your free copy of <strong>Academia</strong>",
-    "subscribemail": "Please send your name and address to <a class=\"u-td-underline\" href=\"mailto:press@eurac.edu\">press@eurac.edu</a>"
+    "subscribe": "Get your free copy of <strong>Academia</strong>, now!",
+    "subscribemail": "Just send your name and address to <a class=\"u-td-underline\" href=\"mailto:press@eurac.edu\">press@eurac.edu</a>",
+    "subscribeprivacy": "For information on the treatment of personal data, see <a class=\"u-td-underline\" href=\"#\">Privacy Information</a>."
   },
 
   "article": {
@@ -71,6 +72,93 @@
     ]
   },
 
+  "articles": [
+    {
+        "type": "Podcast",
+        "title": "Electric Language",
+        "url": "/article.html",
+        "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
+      },
+      {
+        "type": "Interview",
+        "title": "Unter erschwerten Bedingungen",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/antonino.jpg",
+        "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
+      },
+      {
+        "type": "Reportage",
+        "title": "La biologa che classifica i lombrichi e ama la letteratura",
+        "url": "/article.html",
+        "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
+      },
+      {
+        "type": "Movie",
+        "title": "The Myth Buster: Robin Warren",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/warren.jpg",
+        "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
+      },
+      {
+        "type": "Podcast",
+        "title": "Electric Language",
+        "url": "/article.html",
+        "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
+      },
+      {
+        "type": "Interview",
+        "title": "Unter erschwerten Bedingungen",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/antonino.jpg",
+        "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
+      },
+      {
+        "type": "Reportage",
+        "title": "La biologa che classifica i lombrichi e ama la letteratura",
+        "url": "/article.html",
+        "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
+      },
+      {
+        "type": "Movie",
+        "title": "The Myth Buster: Robin Warren",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/warren.jpg",
+        "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
+      },
+      {
+        "type": "Podcast",
+        "title": "Electric Language",
+        "url": "/article.html",
+        "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
+      },
+      {
+        "type": "Interview",
+        "title": "Unter erschwerten Bedingungen",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/antonino.jpg",
+        "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
+      },
+      {
+        "type": "Reportage",
+        "title": "La biologa che classifica i lombrichi e ama la letteratura",
+        "url": "/article.html",
+        "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
+      },
+      {
+        "type": "Movie",
+        "title": "The Myth Buster: Robin Warren",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/warren.jpg",
+        "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
+      }
+  ],
+
   "movie": {
     "title": "Always Look On The Bright Side Of Life",
     "description": "Are we human because of unique traits and attributes not shared with either animal or machine? The definition of “human” is circular: we are human by virtue of the properties that make us human (i.e., distinct from animal and machine). It is a definition by negation: that which separates us from animal and machine is our “human-ness”.",
@@ -101,5 +189,80 @@
         "url": "/movie.html"
       }
     ]
-  }
+  },
+
+  "movies": [
+    {
+      "title": "For Women Only Your Computer Usage Could Cost You Your Job",
+      "poster": "https://source.unsplash.com/category/nature/600x400",
+      "plays": "24 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Life Advice Looking Through A Window",
+      "poster": "https://source.unsplash.com/category/people/600x400",
+      "plays": "16 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
+      "poster": "https://source.unsplash.com/category/technology/600x400",
+      "plays": "18 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
+      "poster": "https://source.unsplash.com/category/buildings/600x400",
+      "plays": "73 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "For Women Only Your Computer Usage Could Cost You Your Job",
+      "poster": "https://source.unsplash.com/category/nature/600x400",
+      "plays": "24 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Life Advice Looking Through A Window",
+      "poster": "https://source.unsplash.com/category/people/600x400",
+      "plays": "16 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
+      "poster": "https://source.unsplash.com/category/technology/600x400",
+      "plays": "18 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
+      "poster": "https://source.unsplash.com/category/buildings/600x400",
+      "plays": "73 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "For Women Only Your Computer Usage Could Cost You Your Job",
+      "poster": "https://source.unsplash.com/category/nature/600x400",
+      "plays": "24 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Life Advice Looking Through A Window",
+      "poster": "https://source.unsplash.com/category/people/600x400",
+      "plays": "16 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
+      "poster": "https://source.unsplash.com/category/technology/600x400",
+      "plays": "18 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
+      "poster": "https://source.unsplash.com/category/buildings/600x400",
+      "plays": "73 plays",
+      "url": "/movie.html"
+    }
+  ]
 }
