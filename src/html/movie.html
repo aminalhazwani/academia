@@ -22,10 +22,10 @@
       <div class="g-row">
         {%- for item in movie.preview %}
           <div class="g g-12 g-6@sm g-4@md g-3@lg">
-            <a class="movie_poster" href="#">
+            <a class="movie_poster" href="{{ item.url }}">
               <img class="u-img-max" src="{{ item.poster }}" alt="#">
             </a>
-            <a href="#">
+            <a href="{{ item.url }}">
               <h2 class="movie_title-small">{{ item.title }}</h2>
             </a>
             <p class="movie_plays">{{ item.plays }}</p>

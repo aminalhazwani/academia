@@ -10,15 +10,15 @@
     },
     {
       "title": "Movies",
-      "url": "#"
+      "url": "/movies.html"
     },
     {
       "title": "Photos",
-      "url": "#"
+      "url": "/photos.html"
     },
     {
       "title": "Podcasts",
-      "url": "#"
+      "url": "/podcasts.html"
     }
   ],
 
@@ -43,13 +43,13 @@
       {
         "type": "Podcast",
         "title": "Electric Language",
-        "url": "#",
+        "url": "/article.html",
         "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
       },
       {
         "type": "Interview",
         "title": "Unter erschwerten Bedingungen",
-        "url": "#",
+        "url": "/article.html",
         "image": "true",
         "picture": "images/antonino.jpg",
         "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
@@ -57,13 +57,13 @@
       {
         "type": "Reportage",
         "title": "La biologa che classifica i lombrichi e ama la letteratura",
-        "url": "#",
+        "url": "/article.html",
         "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
       },
       {
         "type": "Movie",
         "title": "The Myth Buster: Robin Warren",
-        "url": "#",
+        "url": "/article.html",
         "image": "true",
         "picture": "images/warren.jpg",
         "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
@@ -79,22 +79,26 @@
       {
         "title": "For Women Only Your Computer Usage Could Cost You Your Job",
         "poster": "https://source.unsplash.com/category/nature/600x400",
-        "plays": "24 plays"
+        "plays": "24 plays",
+        "url": "/movie.html"
       },
       {
         "title": "Life Advice Looking Through A Window",
         "poster": "https://source.unsplash.com/category/people/600x400",
-        "plays": "16 plays"
+        "plays": "16 plays",
+        "url": "/movie.html"
       },
       {
         "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
         "poster": "https://source.unsplash.com/category/technology/600x400",
-        "plays": "18 plays"
+        "plays": "18 plays",
+        "url": "/movie.html"
       },
       {
         "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
         "poster": "https://source.unsplash.com/category/buildings/600x400",
-        "plays": "73 plays"
+        "plays": "73 plays",
+        "url": "/movie.html"
       }
     ]
   }
