@@ -74,7 +74,7 @@
 
   "articles": [
     {
-        "type": "Podcast",
+        "type": "Article",
         "title": "Electric Language",
         "url": "/article.html",
         "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
@@ -94,97 +94,96 @@
         "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
       },
       {
-        "type": "Movie",
+        "type": "Opinion",
         "title": "The Myth Buster: Robin Warren",
         "url": "/article.html",
         "image": "true",
         "picture": "images/warren.jpg",
         "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
-      },
-      {
-        "type": "Podcast",
-        "title": "Electric Language",
-        "url": "/article.html",
-        "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
       },
       {
         "type": "Interview",
-        "title": "Unter erschwerten Bedingungen",
+        "title": "Lagrein, Syrah o Bordeaux? Vincere la guerra del vino",
+        "url": "/article.html",
+        "excerpt": "La concorrenza sul mercato internazionale del vino è spietata.Anche big players come la Francia o l’Italia devono sapere dosare attacco e difesa. L’Alto Adige si rivela un modello vincente."
+      },
+      {
+        "type": "Opinion",
+        "title": "Mangio locale, sopra tutto!",
         "url": "/article.html",
         "image": "true",
-        "picture": "images/antonino.jpg",
-        "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
-      },
-      {
-        "type": "Reportage",
-        "title": "La biologa che classifica i lombrichi e ama la letteratura",
-        "url": "/article.html",
-        "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
-      },
-      {
-        "type": "Movie",
-        "title": "The Myth Buster: Robin Warren",
-        "url": "/article.html",
-        "image": "true",
-        "picture": "images/warren.jpg",
-        "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
-      },
-      {
-        "type": "Podcast",
-        "title": "Electric Language",
-        "url": "/article.html",
-        "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
+        "picture": "images/locale.jpg",
+        "excerpt": "Il prodotto locale sembra convincere più del biologico e dell’equo e solidale. È quanto emerge da un’indagine condotta dalle ricercatrici di unibz."
       },
       {
         "type": "Interview",
-        "title": "Unter erschwerten Bedingungen",
+        "title": "There’s a Map for That",
         "url": "/article.html",
         "image": "true",
-        "picture": "images/antonino.jpg",
-        "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
+        "picture": "images/map.jpg",
+        "excerpt": "A group of researchers led by EURAC’s Brenda Maria Zoderer are examining how tourists perceive the cultural bene ts of South Tyrol’s landscapes."
+      },
+      {
+        "type": "Interview",
+        "title": "Eat, Drink, Love",
+        "url": "/article.html",
+        "excerpt": "In the competition for market share of wine and culinary tourism, tourist destinations need to put their faith in the strength of local knowledge. An interview with unibz researcher Linda Osti."
+      },
+      {
+        "type": "Interview",
+        "title": "Facebook spricht Dialekt",
+        "url": "/article.html",
+        "image": "true",
+        "picture": "images/dialect.jpg",
+        "excerpt": "„Hosch morgn Zeit?“ Die Umgangssprache hat einen festen Platz in der Social-Media- Kommunikation. Für die EURAC-Sprachforscher bedeutet dies einen endlosen Fundus an Forschungsmaterial."
+      },
+      {
+        "type": "Article",
+        "title": "Surround Sound",
+        "url": "/article.html",
+        "excerpt": "American anthropologist Steven Feld wanders the world—from the rainforests of Papua New Guinea to the villages of Europe—recording the everyday sounds that produce our consciousness of space and time."
       },
       {
         "type": "Reportage",
-        "title": "La biologa che classifica i lombrichi e ama la letteratura",
+        "title": "Eroi e antieroi dell’innovazione",
         "url": "/article.html",
-        "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
+        "excerpt": "Perché cambi qualcosa nella pubblica amministrazione, gli innovatori devono imporsi sugli scettici e le eccellenze locali devono mettersi in rete. Parola dell’esperto Gianni Agnesa."
       },
       {
-        "type": "Movie",
-        "title": "The Myth Buster: Robin Warren",
+        "type": "Reportage",
+        "title": "Termosifoni al teroldego",
         "url": "/article.html",
-        "image": "true",
-        "picture": "images/warren.jpg",
-        "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
+        "excerpt": "Un nuovo piano energetico per la Comunità Rotaliana-Königsberg. Una ricetta  rmata da EURAC a base di fonti rinnovabili e risparmio."
       }
   ],
 
   "movie": {
-    "title": "Always Look On The Bright Side Of Life",
-    "description": "Are we human because of unique traits and attributes not shared with either animal or machine? The definition of “human” is circular: we are human by virtue of the properties that make us human (i.e., distinct from animal and machine). It is a definition by negation: that which separates us from animal and machine is our “human-ness”.",
+    "title": "On Kenyan Soil",
+    "description": "Felix Greifeneder took a trek across Kenya last April for a EURAC-led project on soil moisture mapping. Night driving without headlights, eating a meal of goat and ugali polenta in the Great Rift Valley—it wasn’t an average research week for Felix.<br><br>Movie by <em>Peter Farbridge</em>.",
     "plays": "342 plays",
+    "poster": "images/kenya.jpg",
     "preview": [
       {
-        "title": "For Women Only Your Computer Usage Could Cost You Your Job",
-        "poster": "https://source.unsplash.com/category/nature/600x400",
+        "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
+        "poster": "images/europa.jpg",
         "plays": "24 plays",
         "url": "/movie.html"
       },
       {
-        "title": "Life Advice Looking Through A Window",
-        "poster": "https://source.unsplash.com/category/people/600x400",
+        "title": "Es darf gern weniger sein",
+        "poster": "images/weniger.jpg",
         "plays": "16 plays",
         "url": "/movie.html"
       },
       {
-        "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
-        "poster": "https://source.unsplash.com/category/technology/600x400",
+        "title": "Und plötzlich kommt die Welt ins Dorf",
+        "poster": "images/welt.jpg",
         "plays": "18 plays",
         "url": "/movie.html"
       },
       {
-        "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
-        "poster": "https://source.unsplash.com/category/buildings/600x400",
+        "title": "Alpen Plus",
+        "poster": "images/alpen.jpg",
         "plays": "73 plays",
         "url": "/movie.html"
       }
@@ -193,74 +192,74 @@
 
   "movies": [
     {
-      "title": "For Women Only Your Computer Usage Could Cost You Your Job",
-      "poster": "https://source.unsplash.com/category/nature/600x400",
+      "title": "On Kenyan Soil",
+      "poster": "images/kenya.jpg",
       "plays": "24 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Life Advice Looking Through A Window",
-      "poster": "https://source.unsplash.com/category/people/600x400",
+      "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
+      "poster": "images/europa.jpg",
+      "plays": "24 plays",
+      "url": "/movie.html"
+    },
+    {
+      "title": "Es darf gern weniger sein",
+      "poster": "images/weniger.jpg",
       "plays": "16 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
-      "poster": "https://source.unsplash.com/category/technology/600x400",
+      "title": "Und plötzlich kommt die Welt ins Dorf",
+      "poster": "images/welt.jpg",
       "plays": "18 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
-      "poster": "https://source.unsplash.com/category/buildings/600x400",
+      "title": "Alpen Plus",
+      "poster": "images/alpen.jpg",
       "plays": "73 plays",
       "url": "/movie.html"
     },
     {
-      "title": "For Women Only Your Computer Usage Could Cost You Your Job",
-      "poster": "https://source.unsplash.com/category/nature/600x400",
-      "plays": "24 plays",
-      "url": "/movie.html"
-    },
-    {
-      "title": "Life Advice Looking Through A Window",
-      "poster": "https://source.unsplash.com/category/people/600x400",
+      "title": "Driverless Cars: Ready or Not, Here They Come",
+      "poster": "images/drive.jpg",
       "plays": "16 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
-      "poster": "https://source.unsplash.com/category/technology/600x400",
+      "title": "Welche Bildung ist relevant?",
+      "poster": "images/bildung.jpg",
       "plays": "18 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
-      "poster": "https://source.unsplash.com/category/buildings/600x400",
+      "title": "Looking for Mommy",
+      "poster": "images/mommy.jpg",
       "plays": "73 plays",
       "url": "/movie.html"
     },
     {
-      "title": "For Women Only Your Computer Usage Could Cost You Your Job",
-      "poster": "https://source.unsplash.com/category/nature/600x400",
+      "title": "Testlauf im Tümpel",
+      "poster": "images/testlauf.jpg",
       "plays": "24 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Life Advice Looking Through A Window",
-      "poster": "https://source.unsplash.com/category/people/600x400",
+      "title": "Bagnini a Bolzano",
+      "poster": "images/bagnino.jpg",
       "plays": "16 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
-      "poster": "https://source.unsplash.com/category/technology/600x400",
+      "title": "The Many Faces of Integration",
+      "poster": "images/integration.jpg",
       "plays": "18 plays",
       "url": "/movie.html"
     },
     {
-      "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
-      "poster": "https://source.unsplash.com/category/buildings/600x400",
+      "title": "Die große Nano-Idee",
+      "poster": "images/nano.jpg",
       "plays": "73 plays",
       "url": "/movie.html"
     }
