@@ -3,7 +3,7 @@
 //============================================
 
 
-.article
+.article_inner
   +mq($bp-sm)
     padding: 0 5rem
   +mq($bp-md)
@@ -93,26 +93,6 @@
 
   &:hover
     color: $color-text
-
-
-// Comments
-//============================================
-
-.article_comments
-  display: block
-  padding: $space-half
-  margin-bottom: $space-double*2
-  font-family: $font-sans
-  font-weight: 600
-  text-transform: uppercase
-  text-align: center
-  border: 2px solid $black
-  transition: color 0.2s ease, background-color 0.2s ease
-
-.article_comments:hover
-  color: $white
-  -webkit-font-smoothing: antialiased
-  background-color: $black
 
 
 // Preview
