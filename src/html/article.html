@@ -1,19 +1,19 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-  <div class="l-container">
-    <div class="article">
-      <header class="article_header">
-        <h1 class="article_title">{{ article.title }}</h1>
-        <p class="article_meta">
-          <a href="#">
-            <span class="article_metaItem">{{ article.category }}</span>
-          </a>
-          <span class="u-push-horz-half">|</span>
-          <span>{{ article.date }}</span>
-        </p>
-      </header>
-      <main>
+  <main class="article">
+    <div class="l-container">
+      <div class="article_inner">
+        <header class="article_header">
+          <h1 class="article_title">{{ article.title }}</h1>
+          <p class="article_meta">
+            <a href="#">
+              <span class="article_metaItem">{{ article.category }}</span>
+            </a>
+            <span class="u-push-horz-half">|</span>
+            <span>{{ article.date }}</span>
+          </p>
+        </header>
         <div class="article_coverContainer">
           <img class="article_cover" src="{{ article.cover }}" alt="#">
           <p class="article_coverCaption">{{ article.coverCaption }}</p>
@@ -25,10 +25,12 @@
           <p class="article_author">{{ article.author }}</p>
           <a class="article_authorContact" href="{{ article.authorcontacturl }}">{{ article.authorcontact }}</a>
         </div>
-        <a class="article_comments" href="#">Load comments</a>
-      </main>
+        <div class="u-padd-btm-double">
+          <a class="btn u-push-btm-double" href="#">Load comments</a>
+        </div>
+      </div>
+      <h4 class="u-ta-center u-push-btm">Related Articles</h4>
+      {% include "shared/article-preview.html" %}
     </div>
-    <h4 class="u-ta-center u-push-btm">Related Articles</h4>
-    {% include "shared/article-preview.html" %}
-  </div>
+  </main>
 {% endblock %}
