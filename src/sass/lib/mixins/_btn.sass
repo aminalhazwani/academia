@@ -22,32 +22,50 @@
 //============================================
 
 =btn
-  transition: background-color 0.2s, border-color 0.2s
-  padding: $space-quarter 2rem
-  border: 0.1rem solid $primary
-  background: $primary
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease
+  padding: $space-half
+  border: 2px solid $black
+  background: $white
   font-size: inherit
-  font-weight: normal
-  font-family: inherit
-  border-radius: 0.3rem
+  font-weight: 600
+  font-family: $font-sans
   width: auto
-  display: inline-block
-  color: $white
+  display: block
+  color: $black
   line-height: $lh
   text-align: center
   vertical-align: middle
   white-space: nowrap
   text-shadow: none
   text-decoration: none
+  text-transform: uppercase
+  text-align: center
   cursor: pointer
 
   &:focus,
   &:active,
   &:hover
-    background-color: shade($primary, 10%)
-    border-color: shade($primary, 10%)
+    color: $white
+    -webkit-font-smoothing: antialiased
+    background-color: $black
     z-index: 1
     outline: 0
+
+
+// Invert
+//============================================
+
+=btn-invert
+  background: $gray-dark
+  color: $gray-mid
+  border-color: $gray-mid
+
+  &:focus,
+  &:active,
+  &:hover
+    color: $gray-light
+    background: $gray-dark
+    border-color: $gray-light
 
 
 // Disabled state
@@ -61,6 +79,15 @@
     background-color: $gray-light
     border-color: $gray-light !important // 1.
     color: $gray
+    cursor: not-allowed
+
+=btn-disabled-invert
+  &[disabled],
+  &-disabled
+    background-color: $gray-mid
+    border-color: $gray-mid !important // 1.
+    color: $gray-dark
+    opacity: 0.3
     cursor: not-allowed
 
 
