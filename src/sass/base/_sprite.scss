@@ -13,17 +13,21 @@
 //===========================================
 
 $i-map: (
-  path: url("../images/sprite-d617d39a.svg"),
-  width: 6.4rem,
-  height: 3.2rem,
+  path: url("../images/sprite-6bcd634a.svg"),
+  width: 12.7rem,
+  height: 6.3rem,
 
   facebook-width: 3.2rem,
   facebook-height: 3.2rem,
   facebook-position: 0 0,
 
+  play-width: 6.3rem,
+  play-height: 6.3rem,
+  play-position: -3.2rem 0,
+
   twitter-width: 3.2rem,
   twitter-height: 3.2rem,
-  twitter-position: -3.2rem 0
+  twitter-position: -9.5rem 0
 );
 
 
@@ -31,8 +35,8 @@ $i-map: (
 //===========================================
 
 %i {
-  background-image: url("../images/sprite-d617d39a.svg");
-  background-size: 6.4rem 3.2rem;
+  background-image: url("../images/sprite-6bcd634a.svg");
+  background-size: 12.7rem 6.3rem;
 }
 
 @mixin extend-i-url($extend: true) {
@@ -63,9 +67,20 @@ $i-map: (
   @include i-facebook(false);
 }
 
-@mixin i-twitter($add-url: true) {
+@mixin i-play($add-url: true) {
   @include extend-i-url($add-url);
   background-position: -3.2rem 0;
+  width: 6.3rem;
+  height: 6.3rem;
+}
+
+.i-play {
+  @include i-play(false);
+}
+
+@mixin i-twitter($add-url: true) {
+  @include extend-i-url($add-url);
+  background-position: -9.5rem 0;
   width: 3.2rem;
   height: 3.2rem;
 }
