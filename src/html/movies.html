@@ -4,20 +4,18 @@
   <main class="movie">
     <div class="l-container">
       {% include "shared/filters-dark.html" %}
-      <div class="g-row">
-        {%- for item in movie.preview|slice(2) %}
-          {%- for elem in item %}
-            <div class="g g-12 g-6@sm g-4@md g-3@lg">
-              <a class="movie_poster" href="{{ elem.url }}">
-                <img class="u-img-max" src="{{ elem.poster }}" alt="#">
-              </a>
-              <a href="{{ elem.url }}">
-                <h2 class="movie_title-small">{{ elem.title }}</h2>
-              </a>
-              <p class="movie_plays">{{ elem.plays }}</p>
-            </div>
-          {%- endfor %}
-        {%- endfor %}
+      <div class="g-row g-clear-2@sm g-clear-3@md g-clear-4@lg">
+        {% for item in movie.preview %}
+          <div class="g g-12 g-6@sm g-4@md g-3@lg">
+            <a class="movie_poster" href="{{ item.url }}">
+              <img class="u-img-max" src="{{ item.poster }}" alt="#">
+            </a>
+            <a href="{{ item.url }}">
+              <h2 class="movie_title-small">{{ item.title }}</h2>
+            </a>
+            <p class="movie_plays">{{ item.plays }}</p>
+          </div>
+        {% endfor %}
       </div>
       <div class="g-row u-push-top-double">
         <div class="g g-12 g-6@sm g-4@md g-3@lg">
