@@ -4,7 +4,7 @@
 
 
 .filter
-  padding: $space 0 $space
+  padding: $space-oneAndHalf 0 $space
   font-family: $font-sans
   font-weight: 600
   color: $gray-mid
@@ -25,9 +25,24 @@
   border: 1px solid $gray
   -webkit-appearance: none
   -moz-appearance: none
-
+  transition: border 0.2 ease
 
   &:active,
   &:focus
     border-color: $black
+    outline: none
+
+.filter_select-invert,
+.filter_search-invert
+  background-color: $color-text
+  color: $gray-mid
+  border: 1px solid $gray-mid
+
+  &::placeholder
+    color: $gray
+    font-weight: 400
+
+  &:active,
+  &:focus
+    border-color: $gray-light
     outline: none
