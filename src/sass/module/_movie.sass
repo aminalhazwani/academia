@@ -1,0 +1,46 @@
+//============================================
+// Movies
+//============================================
+
+.movie
+  background-color: $color-text
+  color: $white
+  -webkit-font-smoothing: antialiased
+
+.movie_title
+  +h3
+  margin: $space 0
+  text-align: center
+  +mq($bp-lg)
+    +h2
+    margin: $space-double 0
+
+.movie_description
+  margin-bottom: $space-threeQuarter
+  font-size: small
+  line-height: 1.7
+
+.movie_plays
+  font-family: $font-sans
+  font-size: small
+  color: $gray-mid
+
+.movie_poster
+  +size(100%)
+  position: relative
+  display: block
+
+  &::after
+    +i-play()
+    +center-transform
+    content: ""
+
+.movie_title-small
+  margin: $space-half 0 $space-threeQuarter
+  font-family: $font-sans
+  font-weight: 400
+  font-size: small
+  line-height: 1.5
+
+  &:hover
+    color: $gray-mid

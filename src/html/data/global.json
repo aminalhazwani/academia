@@ -69,5 +69,33 @@
         "excerpt": "Nobel Laureate J. Robin Warren is one half of the duo responsible for identifying <em>Helicobacter pylori</em>, that ubiquitous stomach bacterium that turned the medical establishment on its ear."
       }
     ]
+  },
+
+  "movie": {
+    "title": "Always Look On The Bright Side Of Life",
+    "description": "Are we human because of unique traits and attributes not shared with either animal or machine? The definition of “human” is circular: we are human by virtue of the properties that make us human (i.e., distinct from animal and machine). It is a definition by negation: that which separates us from animal and machine is our “human-ness”.",
+    "plays": "342 plays",
+    "preview": [
+      {
+        "title": "For Women Only Your Computer Usage Could Cost You Your Job",
+        "poster": "https://source.unsplash.com/category/nature/600x400",
+        "plays": "24 plays"
+      },
+      {
+        "title": "Life Advice Looking Through A Window",
+        "poster": "https://source.unsplash.com/category/people/600x400",
+        "plays": "16 plays"
+      },
+      {
+        "title": "Facts Why Inkjet Printing Is Very Appealing Compared To Ordinary Printing",
+        "poster": "https://source.unsplash.com/category/technology/600x400",
+        "plays": "18 plays"
+      },
+      {
+        "title": "Mg Shadow Computer Monitoring Software A Watchdog Protecting Your Interests",
+        "poster": "https://source.unsplash.com/category/buildings/600x400",
+        "plays": "73 plays"
+      }
+    ]
   }
 }
