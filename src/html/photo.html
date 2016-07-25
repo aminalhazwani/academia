@@ -8,7 +8,7 @@
         <div class="carousel" data-flickity='{ "adaptiveHeight": true, "pageDots": false }'>
           {% for item in photo.carousel %}
             <div class="carousel-cell">
-              <img class="u-img-max u-push-btm" src="{{ item.image }}" alt="#">
+              <img class="u-img-max u-push-btm-half" src="{{ item.image }}" alt="#">
               <p class="photo_description">{{ item.caption | safe }}</p>
             </div>
           {% endfor %}
