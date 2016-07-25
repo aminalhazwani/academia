@@ -40,7 +40,7 @@
     "authorpicture": "images/antje.png",
     "authorcontact": "@antje",
     "authorcontacturl": "https://twitter.com/",
-    "preview": [
+    "related": [
       {
         "type": "Podcast",
         "title": "Electric Language",
@@ -162,7 +162,7 @@
     "description": "Felix Greifeneder took a trek across Kenya last April for a EURAC-led project on soil moisture mapping. Night driving without headlights, eating a meal of goat and ugali polenta in the Great Rift Valley—it wasn’t an average research week for Felix.<br><br>Movie by <em>Peter Farbridge</em>.",
     "plays": "342 plays",
     "poster": "images/kenya.jpg",
-    "preview": [
+    "related": [
       {
         "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
         "poster": "images/europa-1.jpg",
@@ -301,7 +301,7 @@
         "caption": "Solomon, 35 anni, è partito da solo dall’Eritrea. Il suo oggetto è una piccola bibbia."
       }
     ],
-    "preview": [
+    "related": [
       {
         "title": "Bagnini a Bolzano",
         "poster": "images/bagnino.jpg",

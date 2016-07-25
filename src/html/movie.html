@@ -20,7 +20,7 @@
       </div>
       <h4 class="u-ta-center u-push-btm">Related Movies</h4>
       <div class="g-row g-row g-clear-2@sm g-clear-4@md">
-        {%- for item in movie.preview %}
+        {%- for item in movie.related %}
           <div class="g g-12 g-6@sm g-3@md">
             <a class="movie_poster" href="{{ item.url }}">
               <img class="u-img-max" src="{{ item.poster }}" alt="#">
