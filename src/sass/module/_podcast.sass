@@ -1,0 +1,32 @@
+//============================================
+// Podcasts
+//============================================
+
+.podcast_title
+  +mq($bp-md)
+    +h5
+
+.podcast_item
+  margin-bottom: $space
+  padding-bottom: $space
+  border-bottom: 1px solid $gray
+
+.podcast_type
+  font-family: $font-sans
+  font-weight: 600
+  color: $gray-mid
+  text-transform: uppercase
+  font-size: small
+
+.podcast_meta
+  margin-bottom: $space-quarter
+  color: $gray-mid
+  font-family: $font-sans
+  font-size: small
+  +mq($bp-md)
+    font-size: inherit
+
+.podcast_description
+  font-size: small
+  +mq($bp-md)
+    font-size: inherit
