@@ -1,5 +1,50 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-  <main></main>
+  <main>
+    <div class="l-container">
+      <div class="u-push-btm u-push-btm-double@lg">
+        <div class="podcast_header">
+          <h1 class="podcastSingle_title">{{ podcast.title }}</h1>
+          <p class="podcastSingle_meta">
+            <a href="#">
+              <span class="podcastSingle_metaItem">{{ podcast.category }}</span>
+            </a>
+            <span class="u-push-horz-half">|</span>
+            <span>{{ podcast.date }}</span>
+          </p>
+        </div>
+        <audio class="podcast_player" controls>
+          <source src="#" type="audio/ogg">
+          <source src="#" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+        <p class="u-push-btm-double">{{ podcast.description | safe }}</p>
+      </div>
+      <h4 class="u-ta-center u-push-btm">Related Podcasts</h4>
+      <div class="g-row g-row g-clear-2@sm">
+        {% for item in podcast.related %}
+          <div class="g-row podcast_item">
+            <div class="g g-2 g-1@md">
+              <a href="{{ item.url }}">
+                <i class="i i-play-black u-push-top-threeQuarter"></i>
+              </a>
+            </div>
+            <div class="g g-10 g-11@md">
+              <span class="podcast_type">{{ item.category }}</span>
+              <a href="{{ item.url }}">
+                <h6 class="podcast_title">{{ item.title }}</h6>
+              </a>
+              <p class="podcast_meta">
+                <span>{{ item.date }}</span>
+                <span class="u-push-horz-quarter">|</span>
+                <span>{{ item.duration }}</span>
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
 {% endblock %}
+

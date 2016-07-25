@@ -333,6 +333,48 @@
     ]
   },
 
+  "podcast": {
+    "title": "Driverless Cars: Ready or Not, Here They Come",
+    "category": "Technology",
+    "date": "5 May 2016",
+    "duration": "21:06",
+    "description": "Before the year is out, autonomous vehicles will roam city streets in some countries around the world. It’s the start of a major technological revolution that will transform how we get from A to B over the next 15 years. Are we ready for it? unibz professor <strong>Federico Boffa</strong>, an expert in the regulatory challenges facing the transportation industry, helps us understand how legislators are dealing with the changes.",
+    "related": [
+      {
+        "title": "On Kenyan Soil",
+        "url": "/podcast.html",
+        "category": "Environment and Health",
+        "date": "14 July 2016",
+        "duration": "21:49",
+        "description": "Remote sensing researcher Felix Greifeneder writes about his trip to Kenya for an ESA- sponsored soil moisture montoring study. An unorthodox work-week at EURAC, to say the least."
+      },
+      {
+        "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
+        "url": "/podcast.html",
+        "category": "Design",
+        "date": "30 June 2016",
+        "duration": "20:04",
+        "description": "Matteo Moretti, unibz, e Monika Weissensteiner, antropologa, raccontano i nuovi muri che stanno sorgendo in Europa e spiegano perché il <em>Visual Journalism</em> può aiutare a collocare le notizie sulle migrazioni in una prospettiva equilibrata."
+      },
+      {
+        "title": "Es darf gern weniger sein",
+        "url": "/podcast.html",
+        "category": "Design",
+        "date": "16 June 2016",
+        "duration": "17:25",
+        "description": "Wie viel braucht man eigentlich fur ein gutes Leben?, haben sich zwei Design-Studentinnen der unibz gefragt. Die Antworten gaben ihnen Menschen, für die Verzicht ein Gewinn ist."
+      },
+      {
+        "title": "Und plötzlich kommt die Welt ins Dorf",
+        "url": "/podcast.html",
+        "category": "Humanities",
+        "date": "2 June 2016",
+        "duration": "21:55",
+        "description": "Nicht nur die Städte, auch viele Dörfer sind das neue Zuhause von Migranten.Academia berichtet über die Herausforderungen des Zusammenlebens von drei Südtiroler Gemeinden."
+      }
+    ]
+  },
+
   "podcasts": [
     {
       "title": "On Kenyan Soil",

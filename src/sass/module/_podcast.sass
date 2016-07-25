@@ -2,6 +2,14 @@
 // Podcasts
 //============================================
 
+.podcast_header
+  padding: $space 0
+  text-align: center
+  +mq($bp-sm)
+    padding: $space-oneAndHalf 0
+  +mq($bp-md)
+    padding: $space-double 0
+
 .podcast_title
   +mq($bp-md)
     +h5
@@ -30,3 +38,24 @@
   font-size: small
   +mq($bp-md)
     font-size: inherit
+
+.podcast_player
+  width: 100%
+  margin-bottom: $space
+
+.podcastSingle_title
+  +h3
+  margin-bottom: $space-half
+  +mq($bp-lg)
+    +h2
+    margin-bottom: $space-half
+
+.podcastSingle_meta
+  margin-bottom: 0
+  font-family: $font-sans
+  font-size: small
+  text-transform: uppercase
+  color: $gray-mid
+
+.podcastSingle_metaItem:hover
+  text-decoration: underline
