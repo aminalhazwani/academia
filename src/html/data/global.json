@@ -165,7 +165,7 @@
     "preview": [
       {
         "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
-        "poster": "images/europa.jpg",
+        "poster": "images/europa-1.jpg",
         "plays": "24 plays",
         "url": "/movie.html",
         "category": "Design"
@@ -204,7 +204,7 @@
     },
     {
       "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
-      "poster": "images/europa.jpg",
+      "poster": "images/europa-1.jpg",
       "plays": "24 plays",
       "url": "/photo.html",
       "category": "Design"
@@ -283,8 +283,24 @@
 
   "photo": {
     "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
-    "description": "Dopo aver raccolto riconoscimenti nei più prestigiosi concorsi internazionali di design e giornalismo digitale con <a class=\"u-td-underline\" href=\"http://www.repubblicapopolaredibolzano.it/\">Repubblica Popolare di Bolzano</a>, Matteo Moretti, docente alla Facoltà di Design e Arti, apre una ri essione sulla crisi dei migranti con un nuovo progetto di ricerca: www.europadreaming.eu. Moretti e Monika Weissensteiner ci spiegano perché i nuovi muri che stanno sorgendo in Europa per limitare l’arrivo dei profughi non stanno so ocando solo il sogno delle persone che desiderano una nuova vita ma anche tradendo il sogno di un continente dei diritti umani e della democrazia. E perché il visual journalism ci può dare una mano a ricollocare i fatti nella giusta prospettiva.",
-    "poster": "images/europa.jpg",
+    "carousel": [
+      {
+        "image": "images/europa-0.jpg",
+        "caption": "Dopo aver raccolto riconoscimenti nei più prestigiosi concorsi internazionali di design e giornalismo digitale con <a class=\"u-td-underline\" href=\"http://www.repubblicapopolaredibolzano.it/\">Repubblica Popolare di Bolzano</a>, Matteo Moretti, docente alla Facoltà di Design e Arti, apre una ri essione sulla crisi dei migranti con un nuovo progetto di ricerca: www.europadreaming.eu. Moretti e Monika Weissensteiner ci spiegano perché i nuovi muri che stanno sorgendo in Europa per limitare l’arrivo dei profughi non stanno so ocando solo il sogno delle persone che desiderano una nuova vita ma anche tradendo il sogno di un continente dei diritti umani e della democrazia. E perché il visual journalism ci può dare una mano a ricollocare i fatti nella giusta prospettiva."
+      },
+      {
+        "image": "images/europa-2.jpg",
+        "caption": "Rawa, 17 anni, ci mostra il suo croci sso. Vuole arrivare in Svezia."
+      },
+      {
+        "image": "images/europa-3.jpg",
+        "caption": "Un giovane sudanese racconta il suo viaggio attraverso gli scatti dello smartphone: il salvataggio da parte della Guardia Costiera, il campo di Lampedusa, i compagni di viaggio. Oggigiorno internet e social media aiutano i migranti a restare in contatto con la loro cultura originaria e a capire quella nuova."
+      },
+      {
+        "image": "images/europa-4.jpg",
+        "caption": "Solomon, 35 anni, è partito da solo dall’Eritrea. Il suo oggetto è una piccola bibbia."
+      }
+    ],
     "preview": [
       {
         "title": "Bagnini a Bolzano",
