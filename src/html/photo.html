@@ -5,8 +5,14 @@
     <div class="l-container">
       <div class="u-push-btm u-push-btm-double@lg">
         <h1 class="section_title">{{ photo.title }}</h1>
-        <img class="u-img-max u-push-btm" src="{{ photo.poster }}" alt="#">
-        <p class="photo_description">{{ photo.description | safe }}</p>
+        <div class="carousel" data-flickity='{ "adaptiveHeight": true, "pageDots": false }'>
+          {% for item in photo.carousel %}
+            <div class="carousel-cell">
+              <img class="u-img-max u-push-btm" src="{{ item.image }}" alt="#">
+              <p class="photo_description">{{ item.caption | safe }}</p>
+            </div>
+          {% endfor %}
+        </div>
       </div>
       <h4 class="u-ta-center u-push-btm">Related Photos</h4>
       <div class="g-row g-row g-clear-2@sm">

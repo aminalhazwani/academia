@@ -1,0 +1,26 @@
+@import "../../node_modules/flickity/css/flickity.css"
+
+.carousel-cell
+  width: 100%
+  margin-right: $space
+
+.flickity-prev-next-button
+  +size($space)
+  top: $space-half
+  transform: none
+  background: transparent
+  +mq($bp-sm)
+    +size($space-double)
+    top: $space-threeQuarter
+
+.flickity-prev-next-button .arrow
+  fill: $white
+
+.flickity-prev-next-button.no-svg
+  color: $white
+
+.flickity-prev-next-button:hover
+  background: transparent
+
+.flickity-prev-next-button:disabled
+  display: none
