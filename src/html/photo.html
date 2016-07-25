@@ -1,5 +1,27 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-  <main></main>
+  <main class="photo">
+    <div class="l-container">
+      <div class="u-push-btm u-push-btm-double@lg">
+        <h1 class="section_title">{{ photo.title }}</h1>
+        <img class="u-img-max u-push-btm" src="{{ photo.poster }}" alt="#">
+        <p class="photo_description">{{ photo.description | safe }}</p>
+      </div>
+      <h4 class="u-ta-center u-push-btm">Related Photos</h4>
+      <div class="g-row g-row g-clear-2@sm">
+        {% for item in photo.preview %}
+          <div class="g g-12 g-6@sm">
+            <a class="photo_preview" href="{{ item.url }}">
+              <div class="photo_inner">
+                <img class="u-img-max" src="{{ item.poster }}" alt="#">
+                <h2 class="photo_title">{{ item.title }}</h2>
+                <span class="photo_category">{{ item.category }}</span>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
 {% endblock %}

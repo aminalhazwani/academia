@@ -167,25 +167,29 @@
         "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
         "poster": "images/europa.jpg",
         "plays": "24 plays",
-        "url": "/movie.html"
+        "url": "/movie.html",
+        "category": "Design"
       },
       {
         "title": "Es darf gern weniger sein",
         "poster": "images/weniger.jpg",
         "plays": "16 plays",
-        "url": "/movie.html"
+        "url": "/movie.html",
+        "category": "Design"
       },
       {
         "title": "Und plötzlich kommt die Welt ins Dorf",
         "poster": "images/welt.jpg",
         "plays": "18 plays",
-        "url": "/movie.html"
+        "url": "/movie.html",
+        "category": "Humanities"
       },
       {
         "title": "Alpen Plus",
         "poster": "images/alpen.jpg",
         "plays": "73 plays",
-        "url": "/movie.html"
+        "url": "/movie.html",
+        "category": "Technology"
       }
     ]
   },
@@ -195,73 +199,121 @@
       "title": "On Kenyan Soil",
       "poster": "images/kenya.jpg",
       "plays": "24 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Environment and Health"
     },
     {
       "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
       "poster": "images/europa.jpg",
       "plays": "24 plays",
-      "url": "/movie.html"
+      "url": "/photo.html",
+      "category": "Design"
     },
     {
       "title": "Es darf gern weniger sein",
       "poster": "images/weniger.jpg",
       "plays": "16 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Design"
     },
     {
       "title": "Und plötzlich kommt die Welt ins Dorf",
       "poster": "images/welt.jpg",
       "plays": "18 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Humanities"
     },
     {
       "title": "Alpen Plus",
       "poster": "images/alpen.jpg",
       "plays": "73 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Technology"
     },
     {
       "title": "Driverless Cars: Ready or Not, Here They Come",
       "poster": "images/drive.jpg",
       "plays": "16 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Technology"
     },
     {
       "title": "Welche Bildung ist relevant?",
       "poster": "images/bildung.jpg",
       "plays": "18 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Language and Autonomies"
     },
     {
       "title": "Looking for Mommy",
       "poster": "images/mommy.jpg",
       "plays": "73 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Humanities"
     },
     {
       "title": "Testlauf im Tümpel",
       "poster": "images/testlauf.jpg",
       "plays": "24 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Technology"
     },
     {
       "title": "Bagnini a Bolzano",
       "poster": "images/bagnino.jpg",
       "plays": "16 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Humanities"
     },
     {
       "title": "The Many Faces of Integration",
       "poster": "images/integration.jpg",
       "plays": "18 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Humanities"
     },
     {
       "title": "Die große Nano-Idee",
       "poster": "images/nano.jpg",
       "plays": "73 plays",
-      "url": "/movie.html"
+      "url": "/movie.html",
+      "category": "Technology"
     }
-  ]
+  ],
+
+  "photo": {
+    "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
+    "description": "Dopo aver raccolto riconoscimenti nei più prestigiosi concorsi internazionali di design e giornalismo digitale con <a class=\"u-td-underline\" href=\"http://www.repubblicapopolaredibolzano.it/\">Repubblica Popolare di Bolzano</a>, Matteo Moretti, docente alla Facoltà di Design e Arti, apre una ri essione sulla crisi dei migranti con un nuovo progetto di ricerca: www.europadreaming.eu. Moretti e Monika Weissensteiner ci spiegano perché i nuovi muri che stanno sorgendo in Europa per limitare l’arrivo dei profughi non stanno so ocando solo il sogno delle persone che desiderano una nuova vita ma anche tradendo il sogno di un continente dei diritti umani e della democrazia. E perché il visual journalism ci può dare una mano a ricollocare i fatti nella giusta prospettiva.",
+    "poster": "images/europa.jpg",
+    "preview": [
+      {
+        "title": "Bagnini a Bolzano",
+        "poster": "images/bagnino.jpg",
+        "plays": "16 plays",
+        "url": "/movie.html",
+        "category": "Humanities"
+      },
+      {
+        "title": "Es darf gern weniger sein",
+        "poster": "images/weniger.jpg",
+        "plays": "16 plays",
+        "url": "/movie.html",
+        "category": "Design"
+      },
+      {
+        "title": "Und plötzlich kommt die Welt ins Dorf",
+        "poster": "images/welt.jpg",
+        "plays": "18 plays",
+        "url": "/movie.html",
+        "category": "Humanities"
+      },
+      {
+        "title": "Alpen Plus",
+        "poster": "images/alpen.jpg",
+        "plays": "73 plays",
+        "url": "/movie.html",
+        "category": "Technology"
+      }
+    ]
+  }
 }

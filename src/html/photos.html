@@ -11,8 +11,11 @@
         {% for item in movies %}
           <div class="g g-12 g-6@sm">
             <a class="photo_preview" href="{{ item.url }}">
-              <img class="u-img-max" src="{{ item.poster }}" alt="#">
-              <h2 class="photo_title">{{ item.title }}</h2>
+              <div class="photo_inner">
+                <img class="u-img-max" src="{{ item.poster }}" alt="#">
+                <h2 class="photo_title">{{ item.title }}</h2>
+                <span class="photo_category">{{ item.category }}</span>
+              </div>
             </a>
           </div>
         {% endfor %}

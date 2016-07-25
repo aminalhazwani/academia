@@ -7,13 +7,20 @@
   color: $white
   -webkit-font-smoothing: antialiased
 
-.photo_preview
+.photo_inner
   +size(100%)
   margin-bottom: $space
   position: relative
   display: block
   +mq($bp-lg)
     margin-bottom: $space-oneAndHalf
+
+.photo_inner::after
+  +pos(0 0, top left)
+  content: ""
+  width: 100%
+  height: 33%
+  background: linear-gradient(rgba($black, 0.6), rgba($black, 0))
 
 .photo_title
   +center-transform
@@ -22,3 +29,31 @@
   margin-bottom: 0
   text-align: center
   text-shadow: 0 0 2rem rgba($black, 0.5)
+  +mq($bp-sm)
+    +h5
+    margin-bottom: 0
+  +mq($bp-md)
+    +h4
+    margin-bottom: 0
+
+.photo_category
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 50%
+  transform: translateX(-50%)
+  padding-top: $space-quarter
+  width: 100%
+  text-align: center
+  font-family: $font-sans
+  font-weight: 600
+  font-size: small
+  text-transform: uppercase
+  text-shadow: 0 0 2rem rgba($black, 0.5)
+  +mq($bp-lg)
+    padding-top: $space-half
+
+.photo_description
+  margin-bottom: $space-double
+  font-size: small
+  line-height: 1.7
