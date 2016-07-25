@@ -2,8 +2,11 @@
 
 {% block content %}
   <main>
-    {% include "shared/filters.html" %}
     <div class="l-container">
+      <h1 class="section_title">Articles</h1>
+      <div class="u-push-btm u-push-btm-half@md">
+        {% include "shared/filters.html" %}
+      </div>
       <div class="articlePreview">
         {% for item in articles %}
           <div class="articlePreview_inner articlePreview_inner-archive">
