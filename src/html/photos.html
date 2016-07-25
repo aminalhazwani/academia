@@ -1,0 +1,30 @@
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+  <main class="photo">
+    <div class="l-container">
+      <h1 class="section_title">Photos</h1>
+      <div class="u-push-btm u-push-btm-half@md">
+        {% include "shared/filters-dark.html" %}
+      </div>
+      <div class="g-row g-clear-2@sm">
+        {% for item in movies %}
+          <div class="g g-12 g-6@sm">
+            <a class="photo_preview" href="{{ item.url }}">
+              <img class="u-img-max" src="{{ item.poster }}" alt="#">
+              <h2 class="photo_title">{{ item.title }}</h2>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="g-row u-push-top-double">
+        <div class="g g-12 g-6@sm g-4@md g-3@lg">
+          <a href="#" class="btn btn-invert u-push-btm u-push-btm-none@md" disabled>Newer</a>
+        </div>
+        <div class="g g-12 g-6@sm g-4@md g-3@lg g-push-4@md g-push-6@lg">
+          <a href="#" class="btn btn-invert">Older</a>
+        </div>
+      </div>
+    </div>
+  </main>
+{% endblock %}
