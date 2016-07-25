@@ -7,9 +7,9 @@
         <h1 class="movie_title">{{ movie.title }}</h1>
         <div class="g g-12 g-8@md g-9@lg">
           <video class="u-img-max u-push-btm-half" controls poster="{{ movie.poster }}">
-            <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
-            <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
-            <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
+            <source src="#" type="video/webm">
+            <source src="#" type="video/mp4">
+            <source src="#" type="video/ogg">
             Your browser doesn't support HTML5 video tag.
           </video>
         </div>
@@ -19,9 +19,9 @@
         </div>
       </div>
       <h4 class="u-ta-center u-push-btm">Related Movies</h4>
-      <div class="g-row g-row g-clear-2@sm g-clear-3@md g-clear-4@lg">
+      <div class="g-row g-row g-clear-2@sm g-clear-4@md">
         {%- for item in movie.preview %}
-          <div class="g g-12 g-6@sm g-4@md g-3@lg">
+          <div class="g g-12 g-6@sm g-3@md">
             <a class="movie_poster" href="{{ item.url }}">
               <img class="u-img-max" src="{{ item.poster }}" alt="#">
             </a>
