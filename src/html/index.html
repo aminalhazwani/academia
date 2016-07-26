@@ -101,6 +101,29 @@
           {% endfor %}
         </div>
       </section>
+      <section class="u-push-btm u-push-btm-double@md">
+        <h4 class="u-ta-center u-push-btm">Upcoming Events</h4>
+        <div class="g-row g-row g-clear-2@md">
+          {% for item in home.events %}
+            <div class="g g-12 g-6@md">
+              {% if item.image == 'true' %}
+                <a class="event" href="{{ item.url }}">
+                  <div class="event_picture">
+                    <span class="event_organiser">{{ item.organiser }}</span>
+                    <img class="u-img-max" src="{{ item.picture }}" alt="#">
+                  </div>
+                </a>
+              {% else %}
+                <span class="event_organiser-gray">{{ item.organiser }}</span>
+              {% endif %}
+              <a href="{{ item.url }}">
+                <h6>{{ item.title }}</h6>
+              </a>
+              <p class="u-fz-sm">{{ item.excerpt | safe }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
     </div>
   </main>
 {% endblock %}
