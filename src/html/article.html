@@ -30,29 +30,27 @@
         </div>
       </div>
       <h4 class="u-ta-center u-push-btm">Related Articles</h4>
-      <div class="articlePreview">
       <div class="g-row">
-          {% for item in article.related %}
-            <div class="g g-12 g-3@md">
-              <div class="articlePreview_inner">
-                {% if item.image == 'true' %}
-                  <a href="{{ item.url }}">
-                    <div class="articlePreview_picture">
-                      <span class="articlePreview_type articlePreview_type-white">{{ item.type }}</span>
-                      <img class="articlePreview_cover" src="{{ item.picture }}" alt="#">
-                    </div>
-                  </a>
-                {% else %}
-                  <span class="articlePreview_type">{{ item.type }}</span>
-                {% endif %}
+        {% for item in article.related %}
+          <div class="g g-12 g-3@md">
+            <div class="articlePreview_inner">
+              {% if item.image == 'true' %}
                 <a href="{{ item.url }}">
-                  <h6 class="articlePreview_title">{{ item.title }}</h6>
+                  <div class="articlePreview_picture">
+                    <span class="articlePreview_type articlePreview_type-white">{{ item.type }}</span>
+                    <img class="articlePreview_cover" src="{{ item.picture }}" alt="#">
+                  </div>
                 </a>
-                <p class="articlePreview_excerpt">{{ item.excerpt | safe }}</p>
-              </div>
+              {% else %}
+                <span class="articlePreview_type">{{ item.type }}</span>
+              {% endif %}
+              <a href="{{ item.url }}">
+                <h6 class="articlePreview_title">{{ item.title }}</h6>
+              </a>
+              <p class="articlePreview_excerpt">{{ item.excerpt | safe }}</p>
             </div>
-          {% endfor %}
-        </div>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </main>
