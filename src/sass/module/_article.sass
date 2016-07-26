@@ -1,5 +1,5 @@
 //============================================
-// Fonts
+// Article
 //============================================
 
 
@@ -136,11 +136,13 @@
 .articlePreview_type-white
   position: absolute
   z-index: 1
-  margin-top: $space-half
+  padding-top: $space-quarter
   left: 50%
   transform: translateX(-50%)
   color: $white
   -webkit-font-smoothing: antialiased
+  +mq($bp-lg)
+    padding-top: $space-half
 
 .articlePreview_cover
   max-width: 100%
