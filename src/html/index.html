@@ -43,7 +43,7 @@
         </div>
       </section>
       <section class="u-push-btm-half u-push-btm@md">
-        <h4 class="u-ta-center u-push-btm">Latest Photo Stories</h4>
+        <h4 class="u-ta-center u-push-btm">Latest Photo Projects</h4>
         <div class="g-row g-row g-clear-2@sm">
           {% for item in photo.related %}
             <div class="g g-12 g-6@sm">
@@ -88,7 +88,7 @@
               <div class="g g-10 g-10@md">
                 <span class="podcast_type">{{ item.category }}</span>
                 <a href="{{ item.url }}">
-                  <h6 class="podcast_title podcast_title-archive">{{ item.title }}</h6>
+                  <h6 class="podcast_title podcast_title-archive u-td-underline-hover">{{ item.title }}</h6>
                 </a>
                 <p class="podcast_meta">
                   <span>{{ item.date }}</span>
@@ -101,29 +101,42 @@
           {% endfor %}
         </div>
       </section>
-      <section class="u-push-btm u-push-btm-double@md">
+      <section class="u-push-btm-half u-push-btm@md">
         <h4 class="u-ta-center u-push-btm">Upcoming Events</h4>
-        <div class="g-row g-row g-clear-2@md">
           {% for item in home.events %}
-            <div class="g g-12 g-6@md">
+            <div class="g-row">
               {% if item.image == 'true' %}
-                <a class="event" href="{{ item.url }}">
-                  <div class="event_picture">
-                    <span class="event_organiser">{{ item.organiser }}</span>
-                    <img class="u-img-max" src="{{ item.picture }}" alt="#">
-                  </div>
-                </a>
+                <div class="g g-12 g-4@sm">
+                  <a class="event" href="{{ item.url }}">
+                    <div class="event_picture">
+                      <span class="event_organiser">{{ item.organiser }}</span>
+                      <img class="u-img-max u-push-btm@sm" src="{{ item.picture }}" alt="#">
+                    </div>
+                  </a>
+                </div>
+                <div class="g g-12 g-8@sm">
+                  <a href="{{ item.url }}">
+                    <h6 class="u-td-underline-hover">{{ item.title }}</h6>
+                  </a>
+                  <p class="u-fz-sm u-push-btm">{{ item.excerpt | safe }}</p>
+                  <p class="event_date">{{ item.date }}</p>
+                </div>
               {% else %}
-                <span class="event_organiser-gray">{{ item.organiser }}</span>
+                <div class="g g-12 g-8@sm">
+                  <span class="event_organiser-gray">{{ item.organiser }}</span>
+                  <a href="{{ item.url }}">
+                    <h6 class="u-td-underline-hover">{{ item.title }}</h6>
+                  </a>
+                  <p class="u-fz-sm u-push-btm">{{ item.excerpt | safe }}</p>
+                  <p class="event_date">{{ item.date }}</p>
+                </div>
               {% endif %}
-              <a href="{{ item.url }}">
-                <h6>{{ item.title }}</h6>
-              </a>
-              <p class="u-fz-sm">{{ item.excerpt | safe }}</p>
             </div>
           {% endfor %}
-        </div>
       </section>
+      <section class="u-push-btm u-push-btm-double@md">
+        <h4 class="u-ta-center u-push-btm">Academia Strips</h4>
+        <img class="u-img-max" src="https://mrmondialisation.org/wp-content/uploads/2015/03/buni-comics-monsters-fear-1289915.gif" alt="#">
     </div>
   </main>
 {% endblock %}
