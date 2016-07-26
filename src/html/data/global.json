@@ -39,14 +39,16 @@
         "picture": "images/event-unibz.jpg",
         "organiser": "Unibz",
         "title": "Workshop on Cognitive and Educational Sciences",
-        "excerpt": "The aim of the workshop is to present research findings and methodologies showing how experimental studies can be helpful for cognitive and educational sciences interested in cognitive functions, such as learning, language acquisition, and attention."
+        "excerpt": "The aim of the workshop is to present research findings and methodologies showing how experimental studies can be helpful for cognitive and educational sciences interested in cognitive functions, such as learning, language acquisition, and attention.",
+        "date": "3 September 2016"
       },
       {
         "image": "true",
         "picture": "images/event-eurac.jpg",
         "organiser": "Eurac",
         "title": "Was macht Frauen in Führungspositionen erfolgreich?",
-        "excerpt": "Wollen sich Frauen neben ihrer Familie und dem Beruf auch politisch engagieren, so ist Management gefragt. Nicht nur im persönlichen Umfeld, sondern auch in ihrer politischen Funktion."
+        "excerpt": "Wollen sich Frauen neben ihrer Familie und dem Beruf auch politisch engagieren, so ist Management gefragt. Nicht nur im persönlichen Umfeld, sondern auch in ihrer politischen Funktion.",
+        "date": "12 September 2016"
       }
     ]
   },
