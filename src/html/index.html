@@ -6,4 +6,101 @@
 
 {% extends 'layouts/application.html' %}
 
-{% block content %}{% endblock %}
+{% block content %}
+  <main>
+    <div class="l-container">
+      <section class="hero u-push-btm u-push-btm-double@md">
+        <span class="hero_category">{{ home.herocategory }}</span>
+        <a href="#">
+          <h2 class="hero_title">{{ home.herotitle }}</h2>
+        </a>
+        <img class="u-d-blk u-img-max" src="{{ home.heroimage }}" alt="#">
+        <p class="hero_author">{{ home.heroauthor }}</p>
+      </section>
+      <section class="u-push-btm-half u-push-btm@md">
+        <h4 class="u-ta-center u-push-btm">Recent Stories</h4>
+        <div class="g-row">
+          {% for item in article.related %}
+            <div class="g g-12 g-3@md">
+              <div class="articlePreview_inner">
+                {% if item.image == 'true' %}
+                  <a href="{{ item.url }}">
+                    <div class="articlePreview_picture">
+                      <span class="articlePreview_type articlePreview_type-white">{{ item.type }}</span>
+                      <img class="articlePreview_cover" src="{{ item.picture }}" alt="#">
+                    </div>
+                  </a>
+                {% else %}
+                  <span class="articlePreview_type">{{ item.type }}</span>
+                {% endif %}
+                <a href="{{ item.url }}">
+                  <h6 class="articlePreview_title">{{ item.title }}</h6>
+                </a>
+                <p class="articlePreview_excerpt">{{ item.excerpt | safe }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+      <section class="u-push-btm-half u-push-btm@md">
+        <h4 class="u-ta-center u-push-btm">Latest Photo Stories</h4>
+        <div class="g-row g-row g-clear-2@sm">
+          {% for item in photo.related %}
+            <div class="g g-12 g-6@sm">
+              <a class="photo_preview" href="{{ item.url }}">
+                <div class="photo_inner">
+                  <img class="u-img-max" src="{{ item.poster }}" alt="#">
+                  <h2 class="photo_title">{{ item.title }}</h2>
+                  <span class="photo_category">{{ item.category }}</span>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+      <section class="u-push-btm-quarter u-push-btm-half@md">
+        <h4 class="u-ta-center u-push-btm">Latest Movies</h4>
+        <div class="g-row g-row g-clear-2@sm g-clear-4@md">
+          {%- for item in movie.related %}
+            <div class="g g-12 g-6@sm g-3@md">
+              <a class="movie_poster" href="{{ item.url }}">
+                <img class="u-img-max" src="{{ item.poster }}" alt="#">
+              </a>
+              <a href="{{ item.url }}">
+                <h2 class="movie_title-small">{{ item.title }}</h2>
+              </a>
+              <p class="movie_plays">{{ item.plays }}</p>
+            </div>
+          {%- endfor %}
+        </div>
+      </section>
+      <section class="u-push-btm u-push-btm-double@md">
+        <h4 class="u-ta-center u-push-btm">Latest Podcasts</h4>
+        <div class="g-row g-row g-clear-2@md">
+          {% for item in podcast.related %}
+          <div class="g g-12 g-6@md">
+            <div class="g-row podcast_item podcast_item-archive">
+              <div class="g g-2 g-2@md">
+                <a href="{{ item.url }}">
+                  <i class="i i-play-black u-push-top-threeQuarter"></i>
+                </a>
+              </div>
+              <div class="g g-10 g-10@md">
+                <span class="podcast_type">{{ item.category }}</span>
+                <a href="{{ item.url }}">
+                  <h6 class="podcast_title podcast_title-archive">{{ item.title }}</h6>
+                </a>
+                <p class="podcast_meta">
+                  <span>{{ item.date }}</span>
+                  <span class="u-push-horz-quarter">|</span>
+                  <span>{{ item.duration }}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </main>
+{% endblock %}

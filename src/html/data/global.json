@@ -28,6 +28,13 @@
     "subscribeprivacy": "For information on the treatment of personal data, see <a class=\"u-td-underline\" href=\"#\">Privacy Information</a>."
   },
 
+  "home": {
+    "herotitle": "Tra Marmotte e Sensori",
+    "heroimage": "images/hero.jpg",
+    "herocategory": "Technology",
+    "heroauthor": "Daniela Mezzena"
+  },
+
   "article": {
     "title": "Alexander Langer in biblioteca",
     "category": "Humanities",
@@ -171,22 +178,22 @@
         "category": "Design"
       },
       {
-        "title": "Es darf gern weniger sein",
-        "poster": "images/weniger.jpg",
-        "plays": "16 plays",
+        "title": "Welche Bildung ist relevant?",
+        "poster": "images/bildung.jpg",
+        "plays": "18 plays",
         "url": "/movie.html",
-        "category": "Design"
+        "category": "Language and Autonomies"
       },
       {
-        "title": "Und plötzlich kommt die Welt ins Dorf",
-        "poster": "images/welt.jpg",
+        "title": "The Many Faces of Integration",
+        "poster": "images/integration.jpg",
         "plays": "18 plays",
         "url": "/movie.html",
         "category": "Humanities"
       },
       {
-        "title": "Alpen Plus",
-        "poster": "images/alpen.jpg",
+        "title": "Die große Nano-Idee",
+        "poster": "images/nano.jpg",
         "plays": "73 plays",
         "url": "/movie.html",
         "category": "Technology"
@@ -338,7 +345,7 @@
     "category": "Technology",
     "date": "5 May 2016",
     "duration": "21:06",
-    "description": "Before the year is out, autonomous vehicles will roam city streets in some countries around the world. It’s the start of a major technological revolution that will transform how we get from A to B over the next 15 years. Are we ready for it? unibz professor <strong>Federico Boffa</strong>, an expert in the regulatory challenges facing the transportation industry, helps us understand how legislators are dealing with the changes.",
+    "description": "Before the year is out, autonomous vehicles will roam city streets in some countries around the world. It’s the start of a major technological revolution that will transform how we get from A to B over the next 15 years. Are we ready for it? Unibz professor <strong>Federico Boffa</strong>, an expert in the regulatory challenges facing the transportation industry, helps us understand how legislators are dealing with the changes.",
     "related": [
       {
         "title": "On Kenyan Soil",
