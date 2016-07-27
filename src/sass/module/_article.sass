@@ -107,6 +107,10 @@
     padding-bottom: $space-threeQuarter
     border-bottom: 1px solid $gray
 
+.g-row > div:last-child > div
+  border: 0
+  margin-bottom: 0
+
 .articlePreview_inner-archive
   margin-bottom: $space
   padding-bottom: $space-threeQuarter
@@ -115,7 +119,7 @@
 .articlePreview_picture
   position: relative
   margin-right: $space
-  max-width: 200px
+  max-width: 20rem
   +mq($bp-xs)
     float: left
 
@@ -156,8 +160,9 @@
     +h5
 
 .articlePreview_excerpt
-  margin-bottom: 0
   font-size: small
+  +mq($bp-md-down)
+    margin-bottom: 0
 
 .articlePreview_excerpt-archive
   +mq($bp-md)

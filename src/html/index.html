@@ -8,17 +8,20 @@
 
 {% block content %}
   <main>
-    <div class="l-container">
-      <section class="hero u-push-btm u-push-btm-double@md">
+    <section class="hero u-push-btm u-push-btm-double@md">
+      <div class="l-container">
         <span class="hero_category">{{ home.herocategory }}</span>
         <a href="#">
           <h2 class="hero_title">{{ home.herotitle }}</h2>
         </a>
         <img class="u-d-blk u-img-max" src="{{ home.heroimage }}" alt="#">
         <p class="hero_author">{{ home.heroauthor }}</p>
-      </section>
-      <section class="u-push-btm-half u-push-btm@md">
-        <h4 class="u-ta-center u-push-btm">Recent Stories</h4>
+      </div>
+    </section>
+        
+    <section class="u-padd-top u-padd-btm u-padd-btm-double@md">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm">Recent Stories</h4>
         <div class="g-row">
           {% for item in article.related %}
             <div class="g g-12 g-3@md">
@@ -41,9 +44,12 @@
             </div>
           {% endfor %}
         </div>
-      </section>
-      <section class="u-push-btm-half u-push-btm@md">
-        <h4 class="u-ta-center u-push-btm">Book of the week</h4>
+      </div>
+    </section>
+
+    <section class="u-bg-gray-light u-padd-top u-padd-btm u-padd-btm-double@md">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-top u-push-btm-double">Book of the week</h4>
         <div class="g-row g-row g-clear-2@sm">
           <div class="g g-12 g-4@sm g-3@md">
             <a href="#">
@@ -67,9 +73,12 @@
             <p class="book_abstract">{{ book.abstract }}</p>
           </div>
         </div>
-      </section>
-      <section class="u-push-btm-half u-push-btm@md">
-        <h4 class="u-ta-center u-push-btm">Latest Photo Projects</h4>
+      </div>
+    </section>
+
+    <section class="u-bg-gray-dark u-padd-top u-padd-btm">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm u-c-white u-push-top u-push-btm-double">Latest Photo Projects</h4>
         <div class="g-row g-row g-clear-2@sm">
           {% for item in photo.related %}
             <div class="g g-12 g-6@sm">
@@ -83,9 +92,12 @@
             </div>
           {% endfor %}
         </div>
-      </section>
-      <section class="u-push-btm-quarter u-push-btm-half@md">
-        <h4 class="u-ta-center u-push-btm">Latest Movies</h4>
+      </div>
+    </section>
+
+    <section class="u-bg-gray-dark u-padd-top u-padd-btm u-push-btm-double">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm u-c-white u-push-top u-push-btm-double">Latest Movies</h4>
         <div class="g-row g-row g-clear-2@sm g-clear-4@md">
           {%- for item in movie.related %}
             <div class="g g-12 g-6@sm g-3@md">
@@ -93,15 +105,18 @@
                 <img class="u-img-max" src="{{ item.poster }}" alt="#">
               </a>
               <a href="{{ item.url }}">
-                <h2 class="movie_title-small">{{ item.title }}</h2>
+                <h2 class="movie_title-small u-c-white">{{ item.title }}</h2>
               </a>
               <p class="movie_plays">{{ item.plays }}</p>
             </div>
           {%- endfor %}
         </div>
-      </section>
-      <section class="u-push-btm u-push-btm-double@md">
-        <h4 class="u-ta-center u-push-btm">Latest Podcasts</h4>
+      </div>
+    </section>
+
+    <section class="u-push-btm-double">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm">Latest Podcasts</h4>
         <div class="g-row g-row g-clear-2@md">
           {% for item in podcast.related %}
           <div class="g g-12 g-6@md">
@@ -126,9 +141,12 @@
           </div>
           {% endfor %}
         </div>
-      </section>
-      <section class="u-push-btm-half u-push-btm@md">
-        <h4 class="u-ta-center u-push-btm">Upcoming Events</h4>
+      </div>
+    </section>
+
+    <section class="u-push-btm">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm">Upcoming Events</h4>
           {% for item in home.events %}
             <div class="g-row">
               {% if item.image == 'true' %}
@@ -159,10 +177,15 @@
               {% endif %}
             </div>
           {% endfor %}
-      </section>
-      <section class="u-push-btm u-push-btm-double@md">
-        <h4 class="u-ta-center u-push-btm">Academia Strips</h4>
+      </div>
+    </section>
+
+    <section class="u-push-btm u-push-btm-double@md">
+      <div class="l-container">
+        <h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm">Academia Strips</h4>
         <img class="u-img-max" src="images/academia-strips.jpg" alt="#">
-    </div>
+      </div>
+    </section>
+
   </main>
 {% endblock %}
