@@ -182,6 +182,17 @@
       }
   ],
 
+  "book": {
+    "title": "Economies in between",
+    "subtitle": "Migrantenökonomien als Orte gesamtgesellschaftlicher Transformationsprozesse",
+    "author": "Claudia Lintner",
+    "abstract": "Migrantenökonomien stellen hybride Strukturen dar, die sich, unabhängig von Staat und Zivilgesellschaft, aus dem lebensweltlichen Kontext heraus entwickeln und sich direkt in den Markt einmischen. Als Alternative zur Integration in den Erwerbsarbeitsmarkt entstehen Migrantenökonomien meist dort, wo gesellschaftliche Problemlagen konkret spürbar sind. Sie können innovative Prozesse in Gang bringen und territoriale Entwicklung von unten mitgestalten. Der Weg in die Selbsttätigkeit führt aber auch zu neuen Abhängigkeiten und Widersprüchen. Dieser Band untersucht das individuelle Handeln von selbsttätigen Migranten in diesem Spannungsfeld. Ein qualitativer Ansatz, der sich eng an den Lebenswelten der Akteure orientiert, ist dabei maßgebend.",
+    "editor": "unibz",
+    "year": "2015",
+    "pages": "156 p.",
+    "isbn": "978-88-6046-084-4"
+  },
+
   "movie": {
     "title": "On Kenyan Soil",
     "description": "Felix Greifeneder took a trek across Kenya last April for a EURAC-led project on soil moisture mapping. Night driving without headlights, eating a meal of goat and ugali polenta in the Great Rift Valley—it wasn’t an average research week for Felix.<br><br>Movie by <em>Peter Farbridge</em>.",
@@ -189,18 +200,18 @@
     "poster": "images/kenya.jpg",
     "related": [
       {
-        "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
-        "poster": "images/europa-1.jpg",
-        "plays": "24 plays",
-        "url": "/movie.html",
-        "category": "Design"
-      },
-      {
         "title": "Welche Bildung ist relevant?",
         "poster": "images/bildung.jpg",
         "plays": "18 plays",
         "url": "/movie.html",
         "category": "Language and Autonomies"
+      },
+      {
+        "title": "Europadreaming.eu: Cosa succede quando il sogno europeo incontra il sogno dei migranti?",
+        "poster": "images/europa-1.jpg",
+        "plays": "24 plays",
+        "url": "/movie.html",
+        "category": "Design"
       },
       {
         "title": "The Many Faces of Integration",
