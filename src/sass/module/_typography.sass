@@ -17,13 +17,32 @@
     padding: $space-double 0
 
 
-// Section border
+// Blockquote
 //============================================
 
-// .u-border-top
-//   padding-top: $space
-//   border-top: 0.4rem solid $gray
+.blockquote
+  display: flex
+  font-size: $fs-h5
+  font-style: italic
+  font-weight: 600
+  padding: 0
 
+  &:before
+    content: "“"
+    margin-top: $space-quarter
+    margin-right: $space
+    margin-left: -$space-quarter
+    font-size: 6rem
+    line-height: 1
+
+  +mq($bp-sm)
+    font-size: $fs-h4
+
+.blockquote_author
+  font-family: $font-sans
+  color: $gray-mid
+  text-align: center
+  font-size: small
 
 // Lists
 //============================================
