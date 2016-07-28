@@ -67,13 +67,13 @@
     "authorcontacturl": "https://twitter.com/",
     "related": [
       {
-        "type": "Podcast",
+        "type": "Technology",
         "title": "Electric Language",
         "url": "/article.html",
         "excerpt": "There’s an electrical storm of neural activity going on in the cloudy-grey matter of our brains; what sparks our language is the preoccupation of Ulrike Domahs of the Cognitive Educational Science Lab at unibz."
       },
       {
-        "type": "Interview",
+        "type": "Humanities",
         "title": "Unter erschwerten Bedingungen",
         "url": "/article.html",
         "image": "true",
@@ -81,13 +81,13 @@
         "excerpt": "Ist Design erlernbar oder doch eine angeborene Begabung? Eine Antwort darauf sucht Designprofessor Antonino Benincasa im Bozner Gefängnis."
       },
       {
-        "type": "Reportage",
+        "type": "Technology",
         "title": "La biologa che classifica i lombrichi e ama la letteratura",
         "url": "/article.html",
         "excerpt": "Un questionario proustiano per Julia Seeber, responsabile del nuovo laboratorio dell’EURAC per lo studio degli invertebrati che vivono nel sottosuolo."
       },
       {
-        "type": "Movie",
+        "type": "Technology",
         "title": "The Myth Buster: Robin Warren",
         "url": "/article.html",
         "image": "true",

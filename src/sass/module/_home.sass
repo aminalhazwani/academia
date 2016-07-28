@@ -8,18 +8,28 @@
   color: $white
   -webkit-font-smoothing: antialiased
 
+.hero_inner
+  margin-left: -$layout-gutter-xs
+  margin-right: -$layout-gutter-xs
+  +mq($bp-xs)
+    margin: 0
+
 .hero_category
-  +pos($space-half 50%, top left)
+  +pos($space-quarter 50%, top left)
   transform: translateX(-50%)
   font-family: $font-sans
   font-weight: 600
   text-transform: uppercase
+  font-size: small
   text-shadow: 0 0 2rem rgba($black, 0.5)
+  +mq($bp-sm)
+    top: $space-half
+    font-size: inherit
 
 .hero_title
   +center-transform
   +h4
-  +size(90%, auto)
+  +size(85%, auto)
   margin-bottom: 0
   text-align: center
   text-shadow: 0 0 2rem rgba($black, 0.5)
@@ -31,9 +41,13 @@
     margin-bottom: 0
 
 .hero_author
-  +pos($space-half 50%, bottom left)
+  +pos($space-quarter 50%, bottom left)
   margin-bottom: 0
   transform: translateX(-50%)
   font-family: $font-sans
   font-weight: 600
   text-shadow: 0 0 2rem rgba($black, 0.5)
+  font-size: small
+  +mq($bp-sm)
+    bottom: $space-half
+    font-size: inherit
