@@ -24,26 +24,26 @@
       <h4 class="u-ta-center u-push-btm">Related Podcasts</h4>
       <div class="g-row g-row g-clear-2@md">
         {% for item in podcast.related %}
-        <div class="g g-12 g-6@md">
-          <div class="g-row podcast_item podcast_item-archive">
-            <div class="g g-2 g-2@md">
-              <a href="{{ item.url }}">
-                <i class="i i-play-black u-push-top-threeQuarter"></i>
-              </a>
-            </div>
-            <div class="g g-10 g-10@md">
-              <span class="podcast_type">{{ item.category }}</span>
-              <a href="{{ item.url }}">
-                <h6 class="podcast_title podcast_title-archive">{{ item.title }}</h6>
-              </a>
-              <p class="podcast_meta">
-                <span>{{ item.date }}</span>
-                <span class="u-push-horz-quarter">|</span>
-                <span>{{ item.duration }}</span>
-              </p>
+          <div class="g g-12 g-6@md">
+            <div class="podcast_item podcast_item-archive">
+              <div class="u-push-rgt-half u-push-rgt@sm">
+                <a href="{{ item.url }}">
+                  <i class="i i-play-black u-push-top-threeQuarter"></i>
+                </a>
+              </div>
+              <div>
+                <span class="podcast_type">{{ item.category }}</span>
+                <a href="{{ item.url }}">
+                  <h6 class="podcast_title podcast_title-archive u-td-underline-hover">{{ item.title }}</h6>
+                </a>
+                <p class="podcast_meta u-fz-sm">
+                  <span>{{ item.date }}</span>
+                  <span class="u-push-horz-quarter">|</span>
+                  <span>{{ item.duration }}</span>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
         {% endfor %}
       </div>
     </div>
