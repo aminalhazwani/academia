@@ -130,7 +130,7 @@
 							<p class="podcast_meta u-fz-sm">
 								<span>$Date.Nice</span>
 								<span class="u-push-horz-quarter">|</span>
-								<span>$Duration</span>
+								<span>$DurationDisplay</span>
 							</p>
 						</div>
 					</div>
