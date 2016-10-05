@@ -2,7 +2,7 @@
 
 var convertToRem = require('./util/convertToRem');
 
-var dest = './dist';
+var dest = './../academia';
 var src = './src';
 
 module.exports = {
@@ -55,6 +55,11 @@ module.exports = {
   images: {
     src: src + '/images/**',
     dest: dest + '/images'
+  },
+
+  markup: {
+    src: src + '/templates/**',
+    dest: dest + '/templates'
   },
 
   html: {
@@ -114,7 +119,7 @@ module.exports = {
           render: {
             scss: {
               template: 'gulp/tpl/_sprite-inline.scss',
-              dest: '../../src/sass/base/_sprite.scss'
+              dest: '../../academia/sass/base/_sprite.scss'
             }
           }
         }
@@ -129,7 +134,7 @@ module.exports = {
           render: {
             scss: {
               template: 'gulp/tpl/_sprite-background.scss',
-              dest: '../../src/sass/base/_sprite.scss'
+              dest: '../../academia/sass/base/_sprite.scss'
             }
           }
         }

@@ -1,0 +1,42 @@
+<footer class="footer">
+	<div class="footer_subscribe">
+		<div class="l-container">
+			<div class="g-row">
+				<div class="g g-12 g-6@md u-push-btm-double u-push-btm-none@md u-push-top-double@lg">
+					<h5 class="u-push-btm">{{ footer.subscribe | safe }}</h5>
+					<p class="u-push-btm-quarter">{{ footer.subscribemail | safe }}</p>
+					<p class="u-fz-small">{{ footer.subscribeprivacy | safe }}</p>
+				</div>
+				<div class="g g-12 g-6@md">
+					<img class="u-img-max" src="images/academia-covers.jpg" alt="#">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_links">
+		<div class="l-container">
+			<div class="g-row">
+				<div class="g g-12 g-3@sm g-4@lg u-push-btm">
+					<p class="u-fw-600 u-tt-uppercase u-push-btm-quarter">Follow us</p>
+					<a class="footer_link u-d-blk u-push-btm-2" href="#">Facebook</a>
+					<a class="footer_link u-d-blk u-push-btm-2" href="#">Twitter</a>
+					<a class="footer_link u-d-blk u-push-btm-2" href="#">Instagram</a>
+				</div>
+				<div class="g g-12 g-3@sm g-2@lg u-push-btm">
+					<p class="u-push-btm-2"><a class="footer_link" href="#">About</a></p>
+					<p class="u-push-btm-2"><a class="footer_link" href="#">Contact Us</a></p>
+					<p class="u-push-btm-2"><a class="footer_link" href="#">Unibz Website</a></p>
+					<p class="u-push-btm-2"><a class="footer_link" href="#">Eurac Website</a></p>
+				</div>
+				<div class="g g-12 g-3@sm g-2@lg u-push-btm">
+					<p class="u-push-btm-2"><a class="footer_link" href="#">Rights & Permissions</a></p>
+					<p class="u-push-btm-2"><a class="footer_link" href="#">Privacy Policy</a></p>
+				</div>
+				<div class="g g-12 g-3@sm g-4@lg">
+					<p class="u-push-btm-2">© 2016 Academia</p>
+					<p class="u-push-btm-2">Website by Amin Al Hazwani</p>
+				</div>
+			</div>
+	</div>
+	</div>
+</footer>
