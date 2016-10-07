@@ -1,15 +1,17 @@
 <main>
 	<section class="hero u-push-btm u-push-btm-double@md">
+		<% with LatestArticles.First %>
 		<div class="l-container">
 			<div class="hero_inner">
-				<span class="hero_category">{{ home.herocategory }}</span>
-				<a href="#">
-					<h2 class="hero_title">{{ home.herotitle }}</h2>
+				<span class="hero_category">$Category</span>
+				<a href="$Link">
+					<h2 class="hero_title">$Title</h2>
 				</a>
-				<img class="u-d-blk u-img-max" src="{{ home.heroimage }}" alt="#">
-				<p class="hero_author">{{ home.heroauthor }}</p>
+				<img class="u-d-blk u-img-max" src="$Image.URL" alt="#">
+				<p class="hero_author">$Author.FullName</p>
 			</div>
 		</div>
+		<% end_with %>
 	</section>
 
 	<section class="u-padd-top u-padd-btm u-padd-btm-double@md">

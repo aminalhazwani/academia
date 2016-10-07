@@ -17,11 +17,13 @@
 				</div>
 				<p class="article_excerpt">$Description</p>
 				<div class="typography">$Content</div>
-				<div class="u-push-btm-double">
-					<img class="article_authorPicture" src="{{ article.authorpicture }}" alt="">
-					<p class="article_author">{{ article.author }}</p>
-					<a class="article_authorContact" href="{{ article.authorcontacturl }}">{{ article.authorcontact }}</a>
-				</div>
+				<% with $Author %>
+					<div class="u-push-btm-double">
+						<img class="article_authorPicture" src="$Image.URL" alt="">
+						<p class="article_author">$FullName</p>
+						<a class="article_authorContact" href="$Link">$Contact</a>
+					</div>
+				<% end_with %>
 				<div class="u-padd-btm-double">
 					<a class="btn u-push-btm-double" href="#">Load comments</a>
 				</div>

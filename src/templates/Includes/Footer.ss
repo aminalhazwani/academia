@@ -1,4 +1,5 @@
 <footer class="footer">
+	<%--
 	<div class="footer_subscribe">
 		<div class="l-container">
 			<div class="g-row">
@@ -13,28 +14,34 @@
 			</div>
 		</div>
 	</div>
+	--%>
 	<div class="footer_links">
 		<div class="l-container">
 			<div class="g-row">
 				<div class="g g-12 g-3@sm g-4@lg u-push-btm">
 					<p class="u-fw-600 u-tt-uppercase u-push-btm-quarter">Follow us</p>
-					<a class="footer_link u-d-blk u-push-btm-2" href="#">Facebook</a>
-					<a class="footer_link u-d-blk u-push-btm-2" href="#">Twitter</a>
-					<a class="footer_link u-d-blk u-push-btm-2" href="#">Instagram</a>
+					<% loop $MenuSet('Social').MenuItems %>
+						<a class="footer_link u-d-blk u-push-btm-2 $LinkingMode" href="$Link" <%if $IsNewWindow %>target="_blank"<% end_if %>>$MenuTitle</a>
+					<% end_loop %>
 				</div>
 				<div class="g g-12 g-3@sm g-2@lg u-push-btm">
-					<p class="u-push-btm-2"><a class="footer_link" href="#">About</a></p>
-					<p class="u-push-btm-2"><a class="footer_link" href="#">Contact Us</a></p>
-					<p class="u-push-btm-2"><a class="footer_link" href="#">Unibz Website</a></p>
-					<p class="u-push-btm-2"><a class="footer_link" href="#">Eurac Website</a></p>
+					<% loop $MenuSet('Footer').MenuItems %>
+						<p class="u-push-btm-2">
+							<a class="footer_link $LinkingMode" href="$Link" <%if $IsNewWindow %>target="_blank"<% end_if %>>$MenuTitle</a>
+						</p>
+					<% end_loop %>
 				</div>
 				<div class="g g-12 g-3@sm g-2@lg u-push-btm">
-					<p class="u-push-btm-2"><a class="footer_link" href="#">Rights & Permissions</a></p>
-					<p class="u-push-btm-2"><a class="footer_link" href="#">Privacy Policy</a></p>
+					<% loop $MenuSet('Legal').MenuItems %>
+						<p class="u-push-btm-2">
+							<a class="footer_link $LinkingMode" href="$Link" <%if $IsNewWindow %>target="_blank"<% end_if %>>$MenuTitle</a>
+						</p>
+					<% end_loop %>
 				</div>
 				<div class="g g-12 g-3@sm g-4@lg">
 					<p class="u-push-btm-2">© 2016 Academia</p>
 					<p class="u-push-btm-2">Website by Amin Al Hazwani</p>
+					<p class="u-push-btm-2">Development by Arillo</p>
 				</div>
 			</div>
 	</div>
