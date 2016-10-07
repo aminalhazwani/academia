@@ -5,5 +5,6 @@
 		<% include Header %>
 		$Layout
 		<% include Footer %>
+		<% require javascript(themes/academia/js/main.js) %>
 	</body>
 </html>

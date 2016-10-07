@@ -3,7 +3,7 @@
       <h1 class="section_title">$Title</h1>
       <div class="u-push-btm u-push-btm-half@md">
         <div class="filter">
-			$SearchForm
+			$SearchForm2
 		</div>
       </div>
       <% if $Results %>

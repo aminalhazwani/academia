@@ -128,7 +128,7 @@
 								<h6 class="podcast_title podcast_title-archive u-td-underline-hover">$Title</h6>
 							</a>
 							<p class="podcast_meta u-fz-sm">
-								<span>$Date.Nice</span>
+								<span>$Created.FormatI18N('%e %B %Y')</span>
 								<span class="u-push-horz-quarter">|</span>
 								<span>$DurationDisplay</span>
 							</p>

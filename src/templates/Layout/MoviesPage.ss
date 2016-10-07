@@ -3,9 +3,8 @@
 		<h1 class="section_title">$Title</h1>
 		<div class="u-push-btm u-push-btm-half@md">
 			<div class="filter">
-				$SearchDarkForm
+				$SearchDarkForm2
 			</div>
-			<% include FiltersDark %>
 		</div>
 		<% if $Results %>
 			<div class="g-row g-clear-2@sm g-clear-3@md g-clear-4@lg">
