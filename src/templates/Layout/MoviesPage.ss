@@ -16,7 +16,7 @@
 						<a href="$Link">
 							<h2 class="movie_title-small">$Title</h2>
 						</a>
-						<p class="movie_plays">$PlayCount</p>
+						<p class="movie_plays">$PlayCount plays</p>
 					</div>
 				<% end_loop %>
 			</div>

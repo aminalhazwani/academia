@@ -11,10 +11,12 @@
 						<span>$Created.FormatI18N('%e %B %Y')</span>
 					</p>
 				</header>
-				<div class="article_coverContainer">
-					<img class="article_cover" src="$Image.URL" alt="#">
-					<p class="article_coverCaption">$Caption</p>
-				</div>
+				<% if $Image %>
+					<div class="article_coverContainer">
+						<img class="article_cover" src="$Image.URL" alt="#">
+						<p class="article_coverCaption">$Image.Caption</p>
+					</div>
+				<% end_if %>
 				<p class="article_excerpt">$Description</p>
 				<div class="typography">$Content</div>
 				<% with $Author %>
