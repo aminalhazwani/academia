@@ -6,9 +6,8 @@
 				<div class="u-img-max u-push-btm-half">
 					<iframe src='//www.youtube.com/embed/$VideoID' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>
 				</div>
-				Views: $Views
-				$MaxResImage
 				<%--
+				Views: $Views
 				<video class="u-img-max u-push-btm-half" controls poster="$Image.URL">
 					<source src="#" type="video/webm">
 					<source src="#" type="video/mp4">

@@ -6,5 +6,6 @@
 		$Layout
 		<% include Footer %>
 		<% require javascript(themes/academia/js/main.js) %>
+		$BetterNavigator
 	</body>
 </html>
