@@ -5,7 +5,7 @@
 				<h1 class="podcastSingle_title">$Title</h1>
 				<p class="podcastSingle_meta">
 					<a href="#">
-						<span class="podcastSingle_metaItem">$Category</span>
+						<span class="podcastSingle_metaItem">$Category.Title</span>
 					</a>
 					<span class="u-push-horz-half">|</span>
 					<span>$Created.FormatI18N('%e %B %Y')</span>
@@ -29,7 +29,7 @@
 							</a>
 						</div>
 						<div>
-							<span class="podcast_type">$Category</span>
+							<span class="podcast_type">$Category.Title</span>
 							<a href="$URL">
 								<h6 class="podcast_title podcast_title-archive u-td-underline-hover">$Title</h6>
 							</a>

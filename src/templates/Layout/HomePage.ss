@@ -1,18 +1,18 @@
 <main>
-	<section class="hero u-push-btm u-push-btm-double@md">
-		<% with LatestArticles.First %>
-		<div class="l-container">
-			<div class="hero_inner">
-				<span class="hero_category">$Category</span>
-				<a href="$Link">
-					<h2 class="hero_title">$Title</h2>
-				</a>
-				<img class="u-d-blk u-img-max" src="$Image.URL" alt="#">
-				<p class="hero_author">$Author.FullName</p>
+	<% with $HighlightArticle %>
+		<section class="hero u-push-btm u-push-btm-double@md">
+			<div class="l-container">
+				<div class="hero_inner">
+					<span class="hero_category">$Category.Title</span>
+					<a href="$Link">
+						<h2 class="hero_title">$Title</h2>
+					</a>
+					<img class="u-d-blk u-img-max" src="$Image.URL" alt="#">
+					<p class="hero_author">$Author.Title</p>
+				</div>
 			</div>
-		</div>
-		<% end_with %>
-	</section>
+		</section>
+	<% end_with %>
 
 	<section class="u-padd-top u-padd-btm u-padd-btm-double@md">
 		<div class="l-container">
@@ -43,36 +43,32 @@
 	</section>
 
 	<%-- BOOK OF THE WEEK --%>
-	<%--
-	<section class="u-bg-gray-light u-padd-top u-padd-btm u-padd-btm-double@md">
-		<div class="l-container">
-			<h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-top u-push-btm-double">Book of the week</h4>
-			<div class="g-row g-row g-clear-2@sm">
-				<div class="g g-12 g-4@sm g-3@md">
-					<a href="#">
-						<img class="book_cover" src="images/book-unibz.jpg" alt="#">
-					</a>
-					<p class="u-fz-sm u-c-gray-mid u-ff-sans u-push-btm-none">{{ book.author }}</p>
-					<p class="u-fz-sm u-c-gray-mid u-ff-sans u-push-btm-none">
-						<span>{{ book.year }}, </span>
-						<span>{{ book.pages }}</span>
-					</p>
-					<p class="u-fz-sm u-c-gray-mid u-ff-sans">
-						ISBN: <span>{{ book.isbn }}</span>
-					</p>
-				</div>
-				<div class="g g-12 g-8@sm g-9@md">
-					<span class="articlePreview_type u-d-blk u-push-btm-quarter">{{ book.editor }}</span>
-					<h2 class="u-h5 u-td-underline-hover">
-						<a href="#">{{ book.title }}</a>
-					</h2>
-					<h3 class="u-h6 u-push-btm">{{ book.subtitle }}</h3>
-					<p class="book_abstract">{{ book.abstract }}</p>
+	<% with $HighlightBook %>
+		<section class="u-bg-gray-light u-padd-top u-padd-btm u-padd-btm-double@md">
+			<div class="l-container">
+				<h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-top u-push-btm-double">Book of the week</h4>
+				<div class="g-row g-row g-clear-2@sm">
+					<div class="g g-12 g-4@sm g-3@md">
+						<img class="book_cover" src="$Image.URL" alt="#">
+						<p class="u-fz-sm u-c-gray-mid u-ff-sans u-push-btm-none">$Author.Title</p>
+						<p class="u-fz-sm u-c-gray-mid u-ff-sans u-push-btm-none">
+							<span>$Year, </span>
+							<span>$Pages</span>
+						</p>
+						<p class="u-fz-sm u-c-gray-mid u-ff-sans">
+							ISBN: <span>$ISBN</span>
+						</p>
+					</div>
+					<div class="g g-12 g-8@sm g-9@md">
+						<span class="articlePreview_type u-d-blk u-push-btm-quarter">$Editor</span>
+						<h2 class="u-h5 u-td-underline-hover">$Title</h2>
+						<h3 class="u-h6 u-push-btm">$Subtitle</h3>
+						<p class="book_abstract">$Abstract</p>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	--%>
+		</section>
+	<% end_with %>
 
 	<section class="u-bg-gray-dark u-padd-top u-padd-btm">
 		<div class="l-container">
@@ -84,7 +80,7 @@
 							<div class="photo_inner">
 								<img class="u-img-max" src="$Image.URL" alt="#">
 								<h2 class="photo_title">$Title</h2>
-								<span class="photo_category">$Category</span>
+								<span class="photo_category">$Category.Title</span>
 							</div>
 						</a>
 					</div>
@@ -125,7 +121,7 @@
 							</a>
 						</div>
 						<div>
-							<span class="podcast_type">$Category</span>
+							<span class="podcast_type">$Category.Title</span>
 							<a href="$Link">
 								<h6 class="podcast_title podcast_title-archive u-td-underline-hover">$Title</h6>
 							</a>
@@ -142,7 +138,7 @@
 		</div>
 	</section>
 
-	<%-- BOOK OF THE WEEK --%>
+	<%-- EVENTS --%>
 	<%--
 	<section class="u-push-btm">
 		<div class="l-container">
@@ -187,13 +183,14 @@
 			<p class="blockquote_author">{{ home.blockquoteauthor }}</p>
 		</div>
 	</section>
-
-	<section class="u-push-btm u-push-btm-double@md">
-		<div class="l-container">
-			<h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm">Academia Strips</h4>
-			<img class="u-img-max" src="images/academia-strips.jpg" alt="#">
-		</div>
-	</section>
 	--%>
+	<% with $HighlightStrip %>
+		<section class="u-push-btm u-push-btm-double@md">
+			<div class="l-container">
+				<h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-btm">Academia Strips</h4>
+				<img class="u-img-max" src="$Image.URL" alt="#">
+			</div>
+		</section>
+	<% end_with %>
 
 </main>

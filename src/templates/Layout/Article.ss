@@ -4,8 +4,8 @@
 				<header class="article_header">
 					<h1 class="article_title">$Title</h1>
 					<p class="article_meta">
-						<a href="#">
-							<span class="article_metaItem">$Category</span>
+						<a href="$Category.Link($Parent.Link)">
+							<span class="article_metaItem">$Category.Title</span>
 						</a>
 						<span class="u-push-horz-half">|</span>
 						<span>$Created.FormatI18N('%e %B %Y')</span>
@@ -22,8 +22,8 @@
 				<% with $Author %>
 					<div class="u-push-btm-double">
 						<img class="article_authorPicture" src="$Image.URL" alt="">
-						<p class="article_author">$FullName</p>
-						<a class="article_authorContact" href="$Link">$Contact</a>
+						<p class="article_author">$Title</p>
+						<%-- <a class="article_authorContact" href="$Link">$Twitter</a> --%>
 					</div>
 				<% end_with %>
 				<div class="u-padd-btm-double">

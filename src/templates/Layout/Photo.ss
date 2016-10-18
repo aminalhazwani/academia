@@ -19,7 +19,7 @@
 						<div class="photo_inner">
 							<img class="u-img-max" src="$Image.URL" alt="#">
 							<h2 class="photo_title">$Title</h2>
-							<span class="photo_category">$Category</span>
+							<span class="photo_category">$Category.Title</span>
 						</div>
 					</a>
 				</div>

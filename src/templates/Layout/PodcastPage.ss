@@ -3,7 +3,7 @@
       <h1 class="section_title">$Title</h1>
       <div class="u-push-btm u-push-btm-half@md">
         <div class="filter">
-			$SearchForm2
+			$SearchForm
 		</div>
       </div>
       <% if $Results %>
@@ -15,7 +15,7 @@
 	            </a>
 	          </div>
 	          <div>
-	            <span class="podcast_type">$Category</span>
+	            <span class="podcast_type">$Category.Title</span>
 	            <a href="$Link">
 	              <h6 class="podcast_title">$Title</h6>
 	            </a>

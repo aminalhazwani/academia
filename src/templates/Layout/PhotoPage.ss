@@ -3,7 +3,7 @@
 		<h1 class="section_title">$Title</h1>
 		<div class="u-push-btm u-push-btm-half@md">
 			<div class="filter">
-				$SearchDarkForm2
+				$SearchForm(true)
 			</div>
 		</div>
 		<% if $Results %>
@@ -14,7 +14,7 @@
 							<div class="photo_inner">
 								<img class="u-img-max" src="$Image.URL" alt="#">
 								<h2 class="photo_title">$Title</h2>
-								<span class="photo_category">$Category</span>
+								<span class="photo_category">$Category.Title</span>
 							</div>
 						</a>
 					</div>
