@@ -1,20 +1,22 @@
 <footer class="footer">
-	<%--
-	<div class="footer_subscribe">
-		<div class="l-container">
-			<div class="g-row">
-				<div class="g g-12 g-6@md u-push-btm-double u-push-btm-none@md u-push-top-double@lg">
-					<h5 class="u-push-btm">{{ footer.subscribe | safe }}</h5>
-					<p class="u-push-btm-quarter">{{ footer.subscribemail | safe }}</p>
-					<p class="u-fz-small">{{ footer.subscribeprivacy | safe }}</p>
-				</div>
-				<div class="g g-12 g-6@md">
-					<img class="u-img-max" src="images/academia-covers.jpg" alt="#">
+	<%-- SUBSCRIBE --%>
+	<% with $SiteConfig %>
+		<div class="footer_subscribe">
+			<div class="l-container">
+				<div class="g-row">
+					<div class="g g-12 g-6@md u-push-btm-double u-push-btm-none@md u-push-top-double@lg">
+						<h5 class="u-push-btm">$SubscribeTitle</h5>
+						<p class="u-push-btm-quarter">$SubscribeEmail</p>
+						<p class="u-fz-small">$SubscribePrivacy</p>
+					</div>
+					<div class="g g-12 g-6@md">
+						<img class="u-img-max" src="$SubscribeImage.URL" alt="#">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	--%>
+	<% end_with %>
+
 	<div class="footer_links">
 		<div class="l-container">
 			<div class="g-row">
@@ -40,8 +42,8 @@
 				</div>
 				<div class="g g-12 g-3@sm g-4@lg">
 					<p class="u-push-btm-2">© 2016 Academia</p>
-					<p class="u-push-btm-2">Website by Amin Al Hazwani</p>
-					<p class="u-push-btm-2">Development by Arillo</p>
+					<p class="u-push-btm-2">Website by <a href="http://aminalhazwani.com/" target="_blank">Amin Al Hazwani</a></p>
+					<p class="u-push-btm-2">Development by <a href="https://arillo.net" target="_blank">Arillo</a></p>
 				</div>
 			</div>
 	</div>
