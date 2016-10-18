@@ -17,8 +17,8 @@
 				--%>
 			</div>
 			<div class="g g-12 g-4@md g-3@lg">
-				<p class="movie_description">$Description</p>
-				<span class="movie_plays">$PlayCount plays</span>
+				<p class="movie_description">$Description $MaxResImage</p>
+				<span class="movie_plays">$ViewCount views</span>
 			</div>
 		</div>
 		<h4 class="u-ta-center u-push-btm">Related Movies</h4>
@@ -31,7 +31,7 @@
 					<a href="$Link">
 						<h2 class="movie_title-small">$Title</h2>
 					</a>
-					<p class="movie_plays">$PlayCount</p>
+					<p class="movie_plays">$ViewCount</p>
 				</div>
 			<% end_loop %>
 		</div>
