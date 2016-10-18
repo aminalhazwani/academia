@@ -8,7 +8,7 @@
 							<span class="article_metaItem">$Category.Title</span>
 						</a>
 						<span class="u-push-horz-half">|</span>
-						<span>$Created.FormatI18N('%e %B %Y')</span>
+						<span>$PublicationDatetime.FormatI18N('%e %B %Y')</span>
 					</p>
 				</header>
 				<% if $Image %>
@@ -19,16 +19,20 @@
 				<% end_if %>
 				<p class="article_excerpt">$Description</p>
 				<div class="typography">$Content</div>
-				<% with $Author %>
-					<div class="u-push-btm-double">
-						<img class="article_authorPicture" src="$Image.URL" alt="">
-						<p class="article_author">$Title</p>
-						<%-- <a class="article_authorContact" href="$Link">$Twitter</a> --%>
+				<% if $Author %>
+					<% with $Author %>
+						<div class="u-push-btm-double">
+							<img class="article_authorPicture" src="$Image.URL" alt="">
+							<p class="article_author">$Title</p>
+							<%-- <a class="article_authorContact" href="$Link">$Twitter</a> --%>
+						</div>
+					<% end_with %>
+				<% end_if %>
+				<% if $AllowComments %>
+					<div class="u-padd-btm-double">
+						<a class="btn u-push-btm-double" href="#">Load comments</a>
 					</div>
-				<% end_with %>
-				<div class="u-padd-btm-double">
-					<a class="btn u-push-btm-double" href="#">Load comments</a>
-				</div>
+				<% end_if %>
 			</div>
 			<h4 class="u-ta-center u-push-btm">Related Articles</h4>
 			<div class="g-row">

@@ -8,7 +8,7 @@
 						<span class="podcastSingle_metaItem">$Category.Title</span>
 					</a>
 					<span class="u-push-horz-half">|</span>
-					<span>$Created.FormatI18N('%e %B %Y')</span>
+					<span>$PublicationDatetime.FormatI18N('%e %B %Y')</span>
 				</p>
 			</div>
 			<audio class="podcast_player" controls>
@@ -34,7 +34,7 @@
 								<h6 class="podcast_title podcast_title-archive u-td-underline-hover">$Title</h6>
 							</a>
 							<p class="podcast_meta u-fz-sm">
-								<span>$Created.FormatI18N('%e %B %Y')</span>
+								<span>$PublicationDatetime.FormatI18N('%e %B %Y')</span>
 								<span class="u-push-horz-quarter">|</span>
 								<span>$Duration</span>
 							</p>

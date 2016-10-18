@@ -20,7 +20,7 @@
 	              <h6 class="podcast_title">$Title</h6>
 	            </a>
 	            <p class="podcast_meta">
-	              <span>$Created.FormatI18N('%e %B %Y')</span>
+	              <span>$PublicationDatetime.FormatI18N('%e %B %Y')</span>
 	              <span class="u-push-horz-quarter">|</span>
 	              <span>$DurationDisplay</span>
 	            </p>
