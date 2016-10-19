@@ -30,12 +30,12 @@
 								<% if $Image %>
 									<a href="$Link">
 										<div class="articlePreview_picture">
-											<span class="articlePreview_type articlePreview_type-white">$Type</span>
+											<span class="articlePreview_type articlePreview_type-white">$Type.Title</span>
 											<img class="articlePreview_cover" src="$Image.URL" alt="#">
 										</div>
 									</a>
 								<% else %>
-									<span class="articlePreview_type">$Type</span>
+									<span class="articlePreview_type">$Type.Title</span>
 								<% end_if %>
 								<a href="$Link">
 									<h6 class="articlePreview_title">$Title</h6>
@@ -203,14 +203,17 @@
 		</div>
 	</section>
 
-	<section class="u-bg-gray-light u-padd-top u-padd-btm u-padd-btm-double@md u-push-btm-double">
-		<div class="l-container">
-			<h4 class="u-ff-sans u-fz-sm u-tt-uppercase u-fw-600 u-ta-center u-push-top u-push-btm-double">Quote of the day</h4>
-			<blockquote class="blockquote">{{ home.blockquote }}</blockquote>
-			<p class="blockquote_author">{{ home.blockquoteauthor }}</p>
-		</div>
-	</section>
 	--%>
+	<%-- QUOTE --%>
+	<% if $HighlightQuote %>
+		<% with $HighlightQuote %>
+			<section class="u-bg-gray-light u-padd-top u-padd-btm u-padd-btm-double@md u-push-btm-double">
+				<div class="l-container">
+					<% include Quote %>
+				</div>
+			</section>
+		<% end_with %>
+	<% end_if %>
 
 	<%-- HIGHLIGHT STRIP --%>
 	<% if $HighlightStrip %>

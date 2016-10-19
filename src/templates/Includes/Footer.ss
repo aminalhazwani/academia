@@ -1,21 +1,23 @@
 <footer class="footer">
 	<%-- SUBSCRIBE --%>
-	<% with $SiteConfig %>
-		<div class="footer_subscribe">
-			<div class="l-container">
-				<div class="g-row">
-					<div class="g g-12 g-6@md u-push-btm-double u-push-btm-none@md u-push-top-double@lg">
-						<h5 class="u-push-btm">$SubscribeTitle</h5>
-						<p class="u-push-btm-quarter">$SubscribeEmail</p>
-						<p class="u-fz-small">$SubscribePrivacy</p>
-					</div>
-					<div class="g g-12 g-6@md">
-						<img class="u-img-max" src="$SubscribeImage.URL" alt="#">
+	<% if $SiteConfig.SubscribeImage %>
+		<% with $SiteConfig %>
+			<div class="footer_subscribe">
+				<div class="l-container">
+					<div class="g-row">
+						<div class="g g-12 g-6@md u-push-btm-double u-push-btm-none@md u-push-top-double@lg">
+							<h5 class="u-push-btm">$SubscribeTitle</h5>
+							<p class="u-push-btm-quarter">$SubscribeEmail</p>
+							<p class="u-fz-small">$SubscribePrivacy</p>
+						</div>
+						<div class="g g-12 g-6@md">
+							<img class="u-img-max" src="$SubscribeImage.URL" alt="#">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	<% end_with %>
+		<% end_with %>
+	<% end_if %>
 
 	<div class="footer_links">
 		<div class="l-container">

@@ -14,12 +14,12 @@
 						<% if $Image %>
 							<a href="$Link">
 								<div class="articlePreview_picture">
-									<span class="articlePreview_type articlePreview_type-white">$Type</span>
+									<span class="articlePreview_type articlePreview_type-white">$Type.Title</span>
 									<img class="articlePreview_cover" src="$Image.URL" alt="#">
 								</div>
 							</a>
 						<% else %>
-							<span class="articlePreview_type">$Type</span>
+							<span class="articlePreview_type">$Type.Title</span>
 						<% end_if %>
 						<a href="$Link">
 							<h6 class="articlePreview_title articlePreview_title-archive">$Title</h6>

@@ -2,14 +2,17 @@
 	<div class="l-container">
 		<div class="u-push-btm u-push-btm-double@lg">
 			<h1 class="section_title">$Title</h1>
-			<div class="carousel" data-flickity='{ "adaptiveHeight": true, "pageDots": false }'>
-				<% loop $Images %>
-					<div class="carousel-cell">
-						<img class="u-img-max u-push-btm-half" src="$URL" alt="#">
-						<p class="photo_description">$Description</p>
-					</div>
-				<% end_loop %>
-			</div>
+			<% if $Slideshow %>
+				<div class="carousel" data-flickity='{ "adaptiveHeight": true, "pageDots": false }'>
+					<% loop $Slideshow %>
+						<div class="carousel-cell">
+							$Filename
+							<img class="u-img-max u-push-btm-half" src="$URL" alt="#">
+							<p class="photo_description">$Description</p>
+						</div>
+					<% end_loop %>
+				</div>
+			<% end_if %>
 		</div>
 		<h4 class="u-ta-center u-push-btm">Related Photos</h4>
 		<div class="g-row g-row g-clear-2@sm">
