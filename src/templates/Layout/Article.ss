@@ -30,7 +30,8 @@
 
       <% if $AllowComments %>
         <div class="u-padd-btm-double">
-          <a class="btn u-push-btm-double" href="#">Load comments</a>
+          <a class="btn u-push-btm-double show-comments" href="#">Load comments</a>
+          <div id="disqus_thread"></div>
         </div>
       <% end_if %>
     </div>
@@ -58,4 +59,5 @@
       <% end_loop %>
     </div>
   </div>
+
 </main>
