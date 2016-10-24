@@ -13,6 +13,7 @@
 
   .feildsetInner
     margin-bottom: 0
+
     +mq($bp-md)
       margin: 0 -$space-half
       display: flex
@@ -26,7 +27,10 @@
 
   .field
     flex: 1
-    margin: 0 $space-half $space-half
+    margin: 0 0 $space-half
+
+    +mq($bp-md)
+      margin: 0 $space-half $space-half
 
   .Actions
     display: none
