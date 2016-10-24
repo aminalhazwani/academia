@@ -38,6 +38,9 @@ button
   background-color: transparent
   line-height: inherit
 
+::placeholder
+  opacity: 1
+
 
 // Inputs
 //============================================
@@ -56,8 +59,10 @@ select,
   border: 0.1rem solid $gray
   border-radius: 0
   background: $white
-  padding: $space-quarter
+  padding: $space-half
+  height: 4.5rem
   -webkit-appearance: none
+  -moz-appearance: none
 
   &.disabled,
   &[disabled]
@@ -66,7 +71,7 @@ select,
     color: $gray
 
   &:focus
-    border-color: $primary
+    border-color: currentColor
 
 
 // Selects

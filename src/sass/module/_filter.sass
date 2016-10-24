@@ -2,19 +2,34 @@
 // Filters
 //============================================
 
+// Extends & overwrites `.ss-form`
 
-.filter
+.filter // 1.
   font-family: $font-sans
   font-weight: 600
   color: $gray-mid
   text-transform: uppercase
   font-size: smaller
 
-.filter_form
-  margin-bottom: 0
-  +mq($bp-md)
-    display: flex
-    align-items: center
+  .feildsetInner
+    margin-bottom: 0
+    +mq($bp-md)
+      margin: 0 -$space-half
+      display: flex
+      align-items: center
+
+  label
+    @extend .u-sr-only
+
+  legend
+    margin-bottom: $space-half
+
+  .field
+    flex: 1
+    margin: 0 $space-half $space-half
+
+  .Actions
+    display: none
 
 .filter_label
   margin-bottom: $space-half
@@ -29,8 +44,6 @@
   padding: $space-half
   width: 100%
   border: 1px solid $gray
-  -webkit-appearance: none
-  -moz-appearance: none
   transition: border 0.2 ease
 
   &:active,

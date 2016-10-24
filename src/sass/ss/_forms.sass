@@ -1,0 +1,98 @@
+//============================================
+// SilverStripe Forms
+//============================================
+
+
+// General
+//============================================
+
+.ss-form
+  .field
+    margin-bottom: $space-half
+
+  .field.checkbox
+    padding-top: $space-quarter
+
+  .field
+    label.left
+      margin-bottom: $space-quarter
+
+  input.text
+    @extend .form_input !optional
+
+  input.action
+    +btn
+    +btn-truncate
+    +btn-disabled
+
+  .Actions
+    padding-top: $space-third
+
+
+// User definde form
+//============================================
+
+.ss-form
+  .middleColumn + label.right
+    margin: $space-quarter
+
+  .field + .FormHeading
+    padding-top: $space * 1.2;
+
+
+// Checkboxes
+//============================================
+
+// Use the media element technique to put
+// the label next to the checkbox.
+
+.field.checkbox
+  +cf
+
+  input
+    float: left
+    margin-top: 0.2em
+
+  label
+    overflow: hidden
+    display: block
+
+
+// Messages
+//============================================
+
+.ss-form
+  .message
+    &.bad,
+    &.required,
+    &.error
+      color: $color-error
+
+    &.success
+      color: $color-success
+
+
+// Required field marker
+//============================================
+
+.ss-form
+  .checkbox.requiredField label.right,
+  .requiredField label.left
+    padding-right: 0.9rem
+    position: relative
+
+    &::after
+      +pos(0.2rem 0, top right)
+      +size(0.5rem)
+      border-radius: 50%
+      background-color: $color-error
+      content: ""
+
+
+// Errors
+//============================================
+
+.ss-form
+  .field .message.required
+    display: block
+    padding-top: $space-quarter

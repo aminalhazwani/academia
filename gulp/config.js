@@ -9,10 +9,9 @@ module.exports = {
   destFolder: dest,
 
   browserSync: {
+    // Change this to be your project folder
+    proxy: 'http://arillo.dev/academia',
     port: 9000,
-    server: {
-      baseDir: dest
-    },
     notify: false,
     open: false
   },
