@@ -73,6 +73,11 @@ select,
   &:focus
     border-color: currentColor
 
+  .form-inverse &
+    border-color: $gray-mid
+
+    &:focus
+      border-color: $gray
 
 // Selects
 //============================================
@@ -120,3 +125,10 @@ input
     &[multiple]
       padding: 0
       background-image: none
+
+  .form-inverse
+    select
+      background-image: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0' y='0' width='19' height='5' viewBox='0 0 19 5' fill='#{$gray-mid}'><polygon points='0 0 4.5 5 9 0 '/></svg>")
+
+      &[multiple]
+        background-image: none
