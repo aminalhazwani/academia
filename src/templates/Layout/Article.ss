@@ -1,4 +1,4 @@
-<main class="article">
+<main class="l-main article">
   <div class="l-container">
     <div class="article_inner">
       <header class="article_header">

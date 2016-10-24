@@ -1,4 +1,4 @@
-<main>
+<main class="l-main">
   <div class="l-container">
     <div class="u-push-btm u-push-btm-double@lg">
       <div class="podcast_header">

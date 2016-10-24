@@ -1,6 +1,6 @@
 <main class="l-main">
   <div class="l-container">
-    <h1>$Title</h1>
+    <h1>$ErrorCode - $Title</h1>
 
     <div class="tyography">
       $Content

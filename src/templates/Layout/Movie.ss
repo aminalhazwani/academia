@@ -1,4 +1,4 @@
-<main class="movie">
+<main class="l-main movie">
   <div class="l-container">
     <div class="g-row u-push-btm u-push-btm-double@lg">
       <h1 class="movie_title">$Title</h1>

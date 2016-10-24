@@ -1,4 +1,4 @@
-<header class="u-bg-black u-c-white">
+<header class="header u-bg-black u-c-white">
   <div class="l-container">
     <div class="g-row">
       <div class="g g-12 g-6@sm">

@@ -1,4 +1,4 @@
-<main>
+<main class="l-main">
 
   <%-- HIGHLIGHT ARTICLE --%>
   <% if $HighlightArticle %>

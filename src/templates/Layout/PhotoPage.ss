@@ -1,4 +1,4 @@
-<main class="photo">
+<main class="l-main photo">
   <div class="l-container">
     <h1 class="section_title">$Title</h1>
     <div class="u-push-btm u-push-btm-half@md">

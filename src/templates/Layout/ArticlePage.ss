@@ -1,4 +1,4 @@
-<main>
+<main class="l-main">
   <div class="l-container">
     <h1 class="section_title">$Title</h1>
     <div class="u-push-btm u-push-btm-half@md">
